@@ -1,1 +1,1 @@
-# CW-2554-Story-Testing-Scripts
+Guidebook for "Story Testing Scripts - Scoped Application"
