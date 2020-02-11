@@ -1,7 +1,7 @@
 # Lab 0: Introduction
 
 ## Goal
-The Goal od this lab is to get familar with using the Studio IDE to build scoped applications. In the process we will learn about testing scripts for stories and how they can improve the effciencies of your re
+The Goal od this lab is to get familar with using the Studio IDE to build scoped applications. In the process we will learn about testing scripts for stories and how they can improve the effciencies of your requirement gathering, development, and testing teams.
 
 # Lab 1: Introduction
 # Lab 2: Introduction
