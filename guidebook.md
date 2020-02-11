@@ -9,13 +9,12 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 
 # Lab 2: Starting with ServiceNow&reg; Studio
 
-## Create
-# Lab 3: How to build a scoped application
-
 1. Navigate to **System Applications > Studio.**
 
+# Lab 3: How to build a scoped application
 
 # Lab 4: Recording Test Scripts
+
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
 
