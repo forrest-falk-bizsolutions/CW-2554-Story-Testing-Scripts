@@ -15,7 +15,7 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 ![](images/nav_studio.png)
 
 2. Click the **Create Application** button.  
-![](images/nav_studio.png)
+![](images/select_application.png)
 
 3. Click the **Let's get started** button on the "Welcome to the new way to set up your apps"
 
@@ -33,6 +33,16 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 
 8. Enter in "test_script_user" in the "New role name" field and click **Create**  
 ![](images/test_script_user_role.png)
+
+9. The role should now appear in the "Roles" list with the scope in front of it.
+![](images/test_script_role_added.png)
+
+10. Click **Continue** to go to the next step.
+
+11. Our application will be used on stories in the classic view of ServiceNow. Select **Classic** and click **Continue** to go to the next page.  
+![](images/select_classic_view.png)
+
+12.
 
 # Lab 3: How to build a scoped application
 
