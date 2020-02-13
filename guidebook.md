@@ -22,8 +22,17 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 4. Fill out the following values on the "General Info" tab:
 
 **Name:** Story Testing Scripts  
-**Description:** Create testing scripts for stories.
-**Scope:** x_441376_sts (Note you instance may have a different number.  
+**Description:** Create testing scripts for stories.  
+**Scope:** x_441376_sts (Note, your instance may have a different number.  
+
+5. Drag the "checkbox.png" image from the lab files to the "Drag or drop" icon area.
+
+6. Verify all the information is correct and click **Create**  
+
+7. On the "Let's create some roles for this app", click the **+Create new role** 
+
+8. Enter in "test_script_user" in the "New role name" field and click **Create**  
+![](images/test_script_user_role.png)
 
 # Lab 3: How to build a scoped application
 
