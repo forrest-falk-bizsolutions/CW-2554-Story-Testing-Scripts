@@ -12,7 +12,7 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 ## Create the Scoped Application
 
 1. Navigate to **System Applications > Studio.**
-![](images/nav_studio)
+![](images/nav_studio.png)
 
 2. Click the *Create Application* button.
 
