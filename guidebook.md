@@ -14,14 +14,17 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 1. Navigate to **System Applications > Studio.**  
 ![](images/nav_studio.png)
 
-2. Click the **Create Application** button.
+2. Click the **Create Application** button.  
+![](images/nav_studio.png)
 
-3. Click the **Create** button next to the "Start from Scratch" option.
+3. Click the **Let's get started** button on the "Welcome to the new way to set up your apps"
 
-4. Fill out the "Create Application" form with the following values:
+4. Fill out the following values on the "General Info" tab:
 
 **Name:** Story Testing Scripts  
-**Scope:** 
+**Description:** Create testing scripts for stories.
+**Scope:** x_441376_sts (Note you instance may have a different number.  
+
 # Lab 3: How to build a scoped application
 
 # Lab 4: Recording Test Scripts
