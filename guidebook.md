@@ -42,7 +42,10 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 11. Our application will be used on stories in the classic view of ServiceNow. Select **Classic** and click **Continue** to go to the next page.  
 ![](images/select_classic_view.png)
 
-12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the arhitecture we mentioned previously in lab 1.
+12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the arhitecture we mentioned previously in lab 1. Click on **Create new table**.  
+
+13. On the next screen select the **Create table from scratch**.  
+![](images/create_table_from_scratch.png)
 
 # Lab 3: How to build a scoped application
 
