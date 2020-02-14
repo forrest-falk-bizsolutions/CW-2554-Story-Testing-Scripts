@@ -49,9 +49,11 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 
 14. We will be createing a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
 ![](images/adding_fields_to_test_script_table.gif)  
-**Name:** Story Testing Scripts  
-**Description:** Create testing scripts for stories.
 
+Field Label | Field Name | Type | Length
+------------ | ------------- | ------------- | -------------
+Name | name | String | 100
+Description | description | String | 256
 
 # Lab 3: How to build a scoped application
 
