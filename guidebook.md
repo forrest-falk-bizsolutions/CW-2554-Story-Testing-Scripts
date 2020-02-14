@@ -44,8 +44,14 @@ The Goal od this lab is to get familar with using the Studio IDE to build scoped
 
 12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the arhitecture we mentioned previously in lab 1. Click on **Create new table**.  
 
-13. On the next screen select the **Create table from scratch**.  
+13. On the next screen select the **Create table from scratch** and click **Continue**.  
 ![](images/create_table_from_scratch.png)
+
+14. We will be createing a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
+![](images/adding_fields_to_test_script_table.gif)  
+**Name:** Story Testing Scripts  
+**Description:** Create testing scripts for stories.
+
 
 # Lab 3: How to build a scoped application
 
