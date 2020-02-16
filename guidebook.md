@@ -1,13 +1,13 @@
 # Lab 0: Introduction
 
 ## Goal
-The Goal od this lab is to get familar with using the Studio IDE to build scoped applications. In the process we will learn about testing scripts for stories and how they can improve the effciencies of your requirement gathering, development, and testing teams.
+The Story Testing Scripts Scoped Application lab will guide users on how to use ServiceNow&reg; Studio IDE to build out a custom application that helps create test scripts for stories. Developers are often confused on what requirements are needed by the quality assurance team for testing. This will break down the test script process into what users they should be impersonating, the steps they should be taking and more. This lab will go over what should be included in a best practice test script and how to build a scoped application to record test scripts in ServiceNow instead of in Excel or another system. This lab will touch developers on Studio IDE, story best practices, scoped applications, and process improvement.
 
 # Lab 1: The Fundamentals of Testing Scripts
-
+Explain the different terminologies and overall scenario. < directly from ATF > 
 ## What are testing scripts and why should I use them?
-
-# Lab 2: Starting with ServiceNow&reg; Studio
+< ATF  or itil library >
+# Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
 
@@ -55,7 +55,7 @@ Field Label | Field Name | Type | Length
 Name | name | String | 100
 Description | description | String | 256
 
-# Lab 3: How to build a scoped application
+# Lab 3: How to change the layouts
 
 # Lab 4: Recording Test Scripts
 
