@@ -50,10 +50,18 @@ Explain the different terminologies and overall scenario. < directly from ATF >
 14. We will be createing a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
 ![](images/adding_fields_to_test_script_table.gif)  
 
-Field Label | Field Name | Type | Length
------------- | ------------- | ------------- | -------------
-Name | name | String | 100
-Description | description | String | 256
+Field Label | Field Name | Type | Length | Reference
+------------ | ------------- | ------------- | ------------- | -------------
+Name | name | String | 100 |
+Description | description | String | 256 |
+Story | story | Reference | 32 | rm_story
+Tested By | tested_by | Reference | 32 | sys_user
+Reviewed By | reviewed_by | Reference | 32 | sys_user
+Version | version | String | 40 | 
+QA Tester's Notes | qa_testers_notes | String | 1000
+Reviewer's Notes | reviewers_notes | String | 1000
+
+
 
 # Lab 3: How to change the layouts
 
