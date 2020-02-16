@@ -60,9 +60,9 @@ Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
 Name | name | String | 40 |
 Description | description | String | 1000 |
-Story | story | Reference | 32 | rm_story
-Tested By | tested_by | Reference | 32 | sys_user
-Reviewed By | reviewed_by | Reference | 32 | sys_user
+Story | story | Reference | 32 | Story [rm_story]
+Tested By | tested_by | Reference | 32 | User [sys_user]
+Reviewed By | reviewed_by | Reference | 32 | User [sys_user]
 Version | version | Integer |  | 
 QA Tester's Notes | qa_tester_s_notes | String | 1000
 Reviewer's Notes | reviewer_s_notes | String | 1000
@@ -87,16 +87,37 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 20. Click on the **Create table from scratch** and then click **Continue**.
 
+21. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the Scenario table with the information below.
+
 Add the following fields to the Scenario table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
-Name | name | String | 100 |
-Prerequites | prerequites | String | 1000 | 
+Name | name | String | 40 |
+Description | description | String | 1000 |  
+Prerequisites | prerequisites | String | 1000 | 
 Personas | personas | String | 1000 | 
-Company | company | Reference | 32 | core_company
-Test Scenario | test_scenario | String | 1000 | 
+Company | company | Reference | 32 | Company [core_company]
 
+22. Verify the fields and click **continue** to go to the table naming page.  
+
+23. Name the table with the information below and then click **Continue** to create the table.It may take a few seconds for the table to be created.
+
+![](images/scenario_table_name.png)
+
+**Table label:** Test Script  
+**Table name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
+**Make extensible:** true  
+
+24. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.
+
+![](images/scenario_table_is_ready.png)  
+
+25. You should now see the "Test Script" table and the "Senario" table listed in the tables for your application. We are going to repeat the process one more time for the "Test Steps" table. Go ahead and click **Create new table**.
+
+![](images/test_script_and_scenario_tables_in_app.png)  
+
+26. Click on the **Create table from scratch** and then click **Continue**.
 
 Add the following fields to the Test Steps table:
 
@@ -106,7 +127,7 @@ Number | number | String | 40 |
 Description | description | String | 1000 |
 input variables | prerequites | String | 1000 | 
 Expected Results | expected_results | String | 1000 | 
-Company | company | Reference | 32 | core_company
+Company | company | Reference | 32 | Company [core_company]
 Actual Result | actual_result | String | 1000 | 
 Result State | result_state | Select Box |  | 
 
