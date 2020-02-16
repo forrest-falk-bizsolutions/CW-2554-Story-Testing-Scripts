@@ -50,6 +50,8 @@ Explain the different terminologies and overall scenario. < directly from ATF >
 14. We will be createing a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
 ![](images/adding_fields_to_test_script_table.gif)  
 
+
+###Add the following fields:###
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
 Name | name | String | 100 |
