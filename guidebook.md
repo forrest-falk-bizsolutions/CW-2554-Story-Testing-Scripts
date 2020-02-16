@@ -7,6 +7,9 @@ The Story Testing Scripts Scoped Application lab will guide users on how to use 
 Explain the different terminologies and overall scenario. < directly from ATF > 
 ## What are testing scripts and why should I use them?
 < ATF  or itil library >
+
+## Planning the layout of our application
+
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
@@ -51,18 +54,52 @@ Explain the different terminologies and overall scenario. < directly from ATF >
 ![](images/adding_fields_to_test_script_table.gif)  
 
 
-Add the following fields:
+Add the following fields to the Test Script table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
 Name | name | String | 100 |
-Description | description | String | 256 |
+Description | description | String | 1000 |
 Story | story | Reference | 32 | rm_story
 Tested By | tested_by | Reference | 32 | sys_user
 Reviewed By | reviewed_by | Reference | 32 | sys_user
 Version | version | String | 40 | 
 QA Tester's Notes | qa_testers_notes | String | 1000
 Reviewer's Notes | reviewers_notes | String | 1000
+
+
+Add the following fields to the Scenario table:
+
+Field Label | Field Name | Type | Length | Reference
+------------ | ------------- | ------------- | ------------- | -------------
+Name | name | String | 100 |
+Prerequites | prerequites | String | 1000 | 
+Personas | personas | String | 1000 | 
+Company | company | Reference | 32 | core_company
+Test Scenario | test_scenario | String | 1000 | 
+
+
+Add the following fields to the Test Steps table:
+
+Field Label | Field Name | Type | Length | Reference
+------------ | ------------- | ------------- | ------------- | -------------
+Number | number | String | 40 |
+Description | description | String | 1000 |
+input variables | prerequites | String | 1000 | 
+Expected Results | expected_results | String | 1000 | 
+Company | company | Reference | 32 | core_company
+Actual Result | actual_result | String | 1000 | 
+Result State | result_state | Select Box |  | 
+
+Result State choice list:
+
+Label |  Name | Type 
+------------ | ------------- | ------------- 
+Pass | pass | String 
+Fail | fail | String 
+Suspended | suspended | String 
+Not Tested | not_tested | String 
+
 
 
 
