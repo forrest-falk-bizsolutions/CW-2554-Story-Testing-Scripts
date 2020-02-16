@@ -66,7 +66,7 @@ Description | description | String | 256
 
 ## How to publish my scoped application to an update set
 
-## How to publish my scopted application to the ServiceNow Store
+## How to publish my scoped application to the ServiceNow&reg; Share
 
-## Other areas to expand the Testing Scripts Scopped Application. 
+## Other areas to expand the Testing Scripts Scoped Application. 
 
