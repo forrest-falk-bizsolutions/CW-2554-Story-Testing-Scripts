@@ -7,7 +7,7 @@ The Story Testing Scripts Scoped Application lab will guide users on how to use 
 Explain the different terminologies and overall scenario. < directly from ATF > 
 ## What are testing scripts and why should I use them?
 < ATF  or itil library >
-
+< Note that we turned on Agile Development 2.0 to build app >
 ## Planning the layout of our application
 
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
@@ -58,14 +58,21 @@ Add the following fields to the Test Script table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
-Name | name | String | 100 |
+Name | name | String | 40 |
 Description | description | String | 1000 |
 Story | story | Reference | 32 | rm_story
 Tested By | tested_by | Reference | 32 | sys_user
 Reviewed By | reviewed_by | Reference | 32 | sys_user
-Version | version | String | 40 | 
-QA Tester's Notes | qa_testers_notes | String | 1000
-Reviewer's Notes | reviewers_notes | String | 1000
+Version | version | Integer |  | 
+QA Tester's Notes | qa_tester_s_notes | String | 1000
+Reviewer's Notes | reviewer_s_notes | String | 1000
+
+15. Click **Continue** after you have added all the fields to the table.
+
+16. Now we will name the table the following:
+
+**Table Label:** Test Script
+**Table Name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
 
 
 Add the following fields to the Scenario table:
