@@ -73,8 +73,15 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 ![](images/test_script_table_name.png)
 
-**Table Label:** Test Script
-**Table Name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
+**Table label:** Test Script  
+**Table name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
+**Make extensible:** true
+
+17. Click the **Continue** button to create the table. It may take the system a few seconds to create the table.
+
+18. You should see a "Success! Your table is ready" screen. Click on **continue** to build the Scenario table next.
+
+![](images/test_script_table_is_ready.png)
 
 
 Add the following fields to the Scenario table:
