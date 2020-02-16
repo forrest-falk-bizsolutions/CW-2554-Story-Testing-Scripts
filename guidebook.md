@@ -106,7 +106,7 @@ Company | company | Reference | 32 | Company [core_company]
 ![](images/scenario_table_name.png)
 
 **Table label:** Test Script  
-**Table name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
+**Table name:** x_441376_sts_scenario (Your instance may have a different number in the table name.)
 **Make extensible:** true  
 
 24. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.
@@ -119,17 +119,28 @@ Company | company | Reference | 32 | Company [core_company]
 
 26. Click on the **Create table from scratch** and then click **Continue**.
 
+27. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the Test Steps table with the information below.
+
 Add the following fields to the Test Steps table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
 Number | number | String | 40 |
 Description | description | String | 1000 |
-input variables | prerequites | String | 1000 | 
+Input Variables | input_variables | String | 1000 | 
 Expected Results | expected_results | String | 1000 | 
-Company | company | Reference | 32 | Company [core_company]
 Actual Result | actual_result | String | 1000 | 
-Result State | result_state | Select Box |  | 
+Result State | result_state | Choice | Dropdown with none  | 
+
+
+22. Verify the fields and click **continue** to go to the table naming page.  
+
+![](images/test_step_table_name.png)  
+
+**Table label:** Test Step 
+**Table name:** x_441376_sts_test_step (Your instance may have a different number in the table name.)
+**Make extensible:** true  
+
 
 Result State choice list:
 
@@ -139,6 +150,8 @@ Pass | pass | String
 Fail | fail | String 
 Suspended | suspended | String 
 Not Tested | not_tested | String 
+
+22. Verify the fields and click **continue** to go to the table naming page.  
 
 
 
