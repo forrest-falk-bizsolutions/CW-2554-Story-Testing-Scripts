@@ -83,6 +83,9 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 ![](images/test_script_table_is_ready.png)
 
+19. You should see the "Test Script" table is now in the "Tables" field of our app. We now need to add the Scenario table next. Let's go through the same proccess and click **Create new table**.
+
+20. Click on the **Create table from scratch** and then click **Continue**.
 
 Add the following fields to the Scenario table:
 
