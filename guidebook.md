@@ -71,6 +71,8 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 16. Now we will name the table the following:
 
+![](images/test_script_table_name.png)
+
 **Table Label:** Test Script
 **Table Name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
 
