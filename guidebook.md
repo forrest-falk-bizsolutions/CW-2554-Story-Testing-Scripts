@@ -175,9 +175,17 @@ Result State | result_state | Choice | Dropdown with none  |
 
 4. In the "Select Application" menu. Select the "Story Testing Scripts" by clicking on the **Story Testing Scripts** name.  
 
-![](images/select_application_in_studio.png)
+![](images/select_application_in_studio.png)  
+
+5. Now we will work on setting up the form layouts for all the tables. In the Application Explorer go to **Data Model -> Tables -> Test Script**
+
+6. 
 
 
+
+
+
+100. 
 
 Result State choice list:
 
