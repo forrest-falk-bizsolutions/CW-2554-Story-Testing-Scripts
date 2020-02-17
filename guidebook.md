@@ -162,12 +162,12 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/application_details.png)  
 
-**Name:** Story Testing Scripts
-**Description:** Create testing scripts for stories.
-**Tables:** Test Script, Scenario, Test Step
-**Roles:** sdlc_user
+**Name:** Story Testing Scripts  
+**Description:** Create testing scripts for stories.  
+**Tables:** Test Script, Scenario, Test Step  
+**Roles:** sdlc_user  
 
-2.
+2. 
 
 
 
