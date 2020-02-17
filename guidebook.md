@@ -149,9 +149,25 @@ Result State | result_state | Choice | Dropdown with none  |
 
 31. You should now see the "Test Script", "Senario", and "Test Step" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
-![](images/all_tables_in_app.png)  
+![](images/all_tables_in_app.png) 
 
-32. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start**.
+32. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
+
+![](images/time_to_design_app.png) 
+
+
+# Lab 3: How to design your application.
+
+1. You should be on the "OK. Let's customer the design of your Classic App" screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
+
+![](images/application_details.png)  
+
+2. 
+
+
+
+
+
 
 
 Result State choice list:
@@ -165,10 +181,6 @@ Not Tested | not_tested | String
 
 
 
-
-
-
-# Lab 3: How to change the layouts
 
 # Lab 4: Recording Test Scripts
 
