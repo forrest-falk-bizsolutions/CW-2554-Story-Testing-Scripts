@@ -177,9 +177,13 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/select_application_in_studio.png)  
 
-5. Now we will work on setting up the form layouts for all the tables. In the Application Explorer go to **Data Model -> Tables -> Test Script**
+5. Now we will work on setting up the form layouts for all the tables. In the Application Explorer go to **Data Model -> Tables -> Test Script**.  
 
-6. 
+![](images/studio_table_select_test_script.png) 
+
+6. The Test Script table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Test Script table record. Click on **Form Layout** in the related list section of the table record.  
+
+![](images/related_list_form_layout.png) 
 
 
 
