@@ -167,9 +167,9 @@ Result State | result_state | Choice | Dropdown with none  |
 **Tables:** Test Script, Scenario, Test Step  
 **Roles:** sdlc_user  
 
-2. 
+2. You should now be on the "Nice! Here are the apps you've designed so far" screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
 
-
+![](images/finished_designing_app.png)
 
 
 
