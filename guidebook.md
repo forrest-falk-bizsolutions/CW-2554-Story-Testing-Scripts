@@ -171,9 +171,11 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/finished_designing_app.png)
 
+3. Now that the app is created, you can click **Done** on the next page.
 
+4. In the "Select Application" menu. Select the "Story Testing Scripts" by clicking on the **Story Testing Scripts** name.  
 
-
+![](images/select_application_in_studio.png)
 
 
 
