@@ -181,9 +181,22 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/studio_table_select_test_script.png) 
 
-6. The Test Script table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Test Script table record. Click on **Form Layout** in the related list section of the table record.  
+6. The Test Script table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Test Script table record. Click on **Design Form** in the related list section of the table record.  
 
-![](images/related_list_form_layout.png) 
+![](images/design_form_related_list.png) 
+
+7. In the Form Designer, change the first section to be a 2 Column layout. Then move the Name, Version, Story, Reviewed By, and Tested By fields. Move the Description field to the bottom 1 column section. There should be no fields in the middle section. Go ahead and delete the section by clicking on the **X** in the corner.  
+
+![](images/test_script_designer_layout.gif)  
+
+
+
+
+Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option was created in the Studio Application Explorer.  
+
+![](images/test_script_form_menu_option.png)
+
+
 
 
 
