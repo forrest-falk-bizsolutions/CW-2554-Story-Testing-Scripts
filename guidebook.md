@@ -196,9 +196,6 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 8.
 
 
-
-
-
 100. 
 
 Result State choice list:
