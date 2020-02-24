@@ -217,13 +217,13 @@ Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was
 
 ![](images/design_form_related_list.png)  
 
-13. ******** UPDATE In the Form Designer, add a new section by clicking on the **+**. Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. Drag down the **Prerequisites** and **Description** fields down to the new section on the bottom. Next change the the top Scenario section to a 2 Column section by clicking **1 Column** in the drop-down list and selecting **2 Column**. Now drag the **Personas** and the **Company** field to the right side of the top section. If it matches the video below, go ahead and click **Save**.
+13. In the Form Designer, drag the **Description** field above the **Input Variables** field in the Test Step section. Once completed, click **Save**.  
 
 ![](images/test_step_designer_layout.gif)  
 
 Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was created in the Studio Application Explorer.  
 
-![](images/scenario_form_menu_option.png)
+![](images/test_step_form_menu_option.png)
 
 
 
