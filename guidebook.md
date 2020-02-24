@@ -205,7 +205,11 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 
 ![](images/scenario_designer_layout.gif)  
 
+Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was created in the Studio Application Explorer.  
 
+![](images/scenario_form_menu_option.png)
+
+11. 
 
 100. 
 
