@@ -226,8 +226,8 @@ Not Tested | not_tested | String
 # Lab 6: Extra Credit
 
 ## How to publish my scoped application to an update set
-
+Goto docs and dev
 ## How to publish my scoped application to the ServiceNow&reg; Share
-
+goto to share
 ## Other areas to expand the Testing Scripts Scoped Application. 
-
+check with test management and atf
