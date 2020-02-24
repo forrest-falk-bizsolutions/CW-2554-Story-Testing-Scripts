@@ -17,8 +17,11 @@ b. Agile development 2.0 ATF Tests
 c. Test Management 2.0
 d. Test Management 2.0 - ATF Tests 
 e. Automated Test Framework (already enabled)
+![](images/plugins.pdf)
 ## Planning the layout of our application
  - insert our spreadsheet  pdf -
+![](images/atf_and_test_excel.png)
+
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
