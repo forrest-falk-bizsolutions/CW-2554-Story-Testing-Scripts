@@ -246,18 +246,27 @@ Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was
 
 3. At the bottom of the Result State dictionary entry, click on the **Choices** tab and then click **New** to create a new choice.
 
-4. 
+![](images/result_state_choice_list_empty.png)  
 
-5. 
+4. In the new choice record make sure the fields are filled out with the below information. Verify the information in the form and click **Submit** to submit the choice.
+
+Label |  Value | Element | Sequence
+------------ | ------------- | ------------- | -------------
+Pass | pass | result_state | 0  
+
+
+![](images/result_state_pass_choice.png)  
+
+
+5. Once you submit the form it will return you back to the choice you just submitted. Add the remaining choices below by changing the information on the choice. Then right-click the top banner and click **Insert and Stay**.
 
 Result State choice list:
 
-Label |  Name | Type 
------------- | ------------- | ------------- 
-Pass | pass | String 
-Fail | fail | String 
-Suspended | suspended | String 
-Not Tested | not_tested | String 
+Label |  Value | Element | Sequence
+------------ | ------------- | ------------- | -------------
+Fail | fail | result_state | 10
+Suspended | suspended | result_state | 20
+Not Tested | not_tested | result_state | 30
 
 
 
