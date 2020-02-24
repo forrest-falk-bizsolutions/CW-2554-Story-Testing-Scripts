@@ -248,7 +248,7 @@ Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was
 
 4. 
 
-100. 
+5. 
 
 Result State choice list:
 
