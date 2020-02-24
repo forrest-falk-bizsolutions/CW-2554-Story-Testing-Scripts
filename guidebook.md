@@ -165,7 +165,8 @@ Result State | result_state | Choice | Dropdown with none  |
 ![](images/time_to_design_app.png) 
 
 
-# Lab 3: How to design your application.
+# Lab 3: How to design your application  
+## Designing the Layout
 
 1. You should be on the "OK. Let's customer the design of your Classic App" screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
 
@@ -234,7 +235,15 @@ Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was
 
 ![](images/test_step_form_menu_option.png)
 
+## Add Choices to the Result State Field
 
+1. We now need to add choices to our **Result State** variable on the Test Step table. Navigate to **Data Model -> Tables -> Test Step**.
+
+2. Under the **Columns** tab, click on the **Result State** dictionary entry record.
+
+3. At the bottom of the Result State dictionary entry, click on the **Choices** tab and then click **New** to create a new choice.
+
+4. 
 
 100. 
 
