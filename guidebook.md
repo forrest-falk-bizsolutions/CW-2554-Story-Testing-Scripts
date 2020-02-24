@@ -195,7 +195,7 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 
 8. Now we will work on setting up the form layout for the scenario table. In the Application Explorer go to **Data Model -> Tables -> Scenario**.
 
-![](images/studio_table_select_test_scenario.png)
+![](images/studio_table_select_scenario.png)
 
 
 100. 
