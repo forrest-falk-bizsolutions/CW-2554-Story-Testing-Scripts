@@ -197,6 +197,12 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 
 ![](images/studio_table_select_scenario.png)
 
+9. The Scenario table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Scenario table record. Click on **Design Form** in the related list section of the table record. 
+
+![](images/design_form_related_list.png)  
+
+10. ****** UPDATE THIS ******* In the Form Designer, change the first section to be a **2 Column layout**. Then drag the Name, Version, Story, Reviewed By, and Tested By fields to the top section. Move the Description field to the bottom 1 column section. There should be no fields in the middle section. Go ahead and delete the section by clicking on the **X** in the corner. Finally click the **Save** button to save the layout.
+
 
 100. 
 
