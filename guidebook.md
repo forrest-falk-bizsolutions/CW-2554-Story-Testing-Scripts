@@ -203,6 +203,9 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 
 10. ****** UPDATE THIS ******* In the Form Designer, change the first section to be a **2 Column layout**. Then drag the Name, Version, Story, Reviewed By, and Tested By fields to the top section. Move the Description field to the bottom 1 column section. There should be no fields in the middle section. Go ahead and delete the section by clicking on the **X** in the corner. Finally click the **Save** button to save the layout.
 
+![](images/scenario_designer_layout.gif)  
+
+
 
 100. 
 
