@@ -20,7 +20,8 @@ e. Automated Test Framework (already enabled)
 ![](images/plugins.pdf)
 ## Planning the layout of our application
  - insert our spreadsheet  pdf -
- ![](images/atf and test excel.png)
+![](images/atf_and_test_excel.png)
+
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
