@@ -4,12 +4,21 @@
 The Story Testing Scripts Scoped Application lab will guide users on how to use ServiceNow&reg; Studio IDE to build out a custom application that helps create test scripts for stories. Developers are often confused on what requirements are needed by the quality assurance team for testing. This will break down the test script process into what users they should be impersonating, the steps they should be taking and more. This lab will go over what should be included in a best practice test script and how to build a scoped application to record test scripts in ServiceNow instead of in Excel or another system. This lab will touch developers on Studio IDE, story best practices, scoped applications, and process improvement.
 
 # Lab 1: The Fundamentals of Testing Scripts
-Explain the different terminologies and overall scenario. < directly from ATF > 
-## What are testing scripts and why should I use them?
-< ATF  or itil library >
-< Note that we turned on Agile Development 2.0 to build app >
-## Planning the layout of our application
+Test scripts are used to ...
 
+Test Management: definition
+Automated Test Framework: definition
+
+## What are testing scripts and why should I use them?
+Steps for enabling Agile Development, Test Management, and Automated Test Framework. << can we have the labs already configured on student >> 
+1. Enable plugins
+a. Agile Development 2.0
+b. Agile development 2.0 ATF Tests
+c. Test Management 2.0
+d. Test Management 2.0 - ATF Tests 
+e. Automated Test Framework (already enabled)
+## Planning the layout of our application
+ - insert our spreadsheet  pdf -
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
