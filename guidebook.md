@@ -307,13 +307,13 @@ When you publish an application, it creates an update set with the current versi
 
 6. If all the information looks good, click **Publish**.
 
-7. Once the update set has completed you will be redirected to the "Story Testing Scripts" update set. You can now export your update set by clicking **Export to XML** in the related links.
+7. Once the update set has completed you will be redirected to the "Story Testing Scripts" update set. You can now download your update set by clicking **Export to XML** in the related links.
 
-![](images/related_links_published.png)
+![](images/related_links_published.png)  
+
+8. Now you can import it into a personal developer instance running Orlando or greater.
 
 
-
-Goto docs and dev
 ## How to publish my scoped application to the ServiceNow&reg; Share
 goto to share
 ## Other areas to expand the Testing Scripts Scoped Application. 
