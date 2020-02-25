@@ -21,12 +21,12 @@ d. Test Management 2.0 - ATF Tests
 e. Automated Test Framework (already enabled)
 
 ![](images/plugins.pdf)
-
+![](images/plugins.png)
 ## Planning the layout of our application
 In this lab, we've identified a commonly used test template using excel. We've high-lighted where to potentially track other values so that integration with Test Management and Automated Test Framework can be implemented.
 
 ![](images/atf_and_test_excel.png)
-
+![](images/atf_and_test_excel.png)
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
