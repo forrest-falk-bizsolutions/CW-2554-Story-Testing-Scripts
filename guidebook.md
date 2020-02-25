@@ -287,19 +287,29 @@ After inserting all of the choices you should see them in choice list.
 ## How to publish my scoped application to an update set
 When you publish an application, it creates an update set with the current version of all the application configuration records.
 
-1. In the left navigation bar **System Applications -> My Company's Applications**.
+1. In the left navigation bar **System Applications -> My Company Applications**.  
+
+![](images/my_company_applications_navbar.png)
 
 2. Click the **In Development** tab.
+
+![](images/in_development_application_manager.png)
 
 3. **Click** the application record you want to create an update set for. 
 
 4. Click the **Publish to Update Set** related link.
 
-5. For best practice, fill in the **Version** and **Description** fields as appropriate. 
+![](images/publish_to_update_set_related_links.png)
+
+5. For best practice, fill in the **Version** and **Description** fields as appropriate. In our case, we will use the information below.
+
+![](images/publish_to_update_set.png)
 
 6. If all the information looks good, click **Publish**.
 
-7. 
+7. Once the update set has completed you will be redirected to the "Story Testing Scripts" update set. You can now export your update set by clicking **Export to XML** in the related links.
+
+![](images/related_links_published.png)
 
 
 
