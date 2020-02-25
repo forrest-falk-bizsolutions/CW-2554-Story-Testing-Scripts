@@ -288,15 +288,15 @@ Next we will work on creating a global update set to capture the Test Script rel
 
 ![](images/global_app_picker.png)
 
-1. In the left navigation bar, go to **System Update Sets -> Local Update Sets**. 
+4. In the left navigation bar, go to **System Update Sets -> Local Update Sets**. 
 
 ![](images/local_update_sets_navbar.png)  
 
-2. At the top of the Update Sets List, click **New**.
+5. At the top of the Update Sets List, click **New**.
 
 ![](images/new_update_set.png)
 
-3. 
+6. 
 
 # Lab 4: Recording Test Scripts
 
