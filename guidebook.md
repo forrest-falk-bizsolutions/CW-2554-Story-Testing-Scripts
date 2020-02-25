@@ -274,6 +274,8 @@ After inserting all of the choices you should see them in choice list.
 
 ## Add Test Scripts as a Related List
 
+1. 
+
 
 # Lab 4: Recording Test Scripts
 
@@ -283,6 +285,24 @@ After inserting all of the choices you should see them in choice list.
 # Lab 6: Extra Credit
 
 ## How to publish my scoped application to an update set
+When you publish an application, it creates an update set with the current version of all the application configuration records.
+
+1. In the left navigation bar **System Applications -> My Company's Applications**.
+
+2. Click the **In Development** tab.
+
+3. **Click** the application record you want to create an update set for. 
+
+4. Click the **Publish to Update Set** related link.
+
+5. For best practice, fill in the **Version** and **Description** fields as appropriate. 
+
+6. If all the information looks good, click **Publish**.
+
+7. 
+
+
+
 Goto docs and dev
 ## How to publish my scoped application to the ServiceNow&reg; Share
 goto to share
