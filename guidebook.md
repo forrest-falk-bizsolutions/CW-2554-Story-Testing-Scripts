@@ -272,7 +272,7 @@ After inserting all of the choices you should see them in choice list.
 
 ![](images/result_state_choice_list_full.png)
 
-
+## Add Test Scripts as a Related List
 
 
 # Lab 4: Recording Test Scripts
