@@ -19,10 +19,12 @@ b. Agile development 2.0 ATF Tests
 c. Test Management 2.0
 d. Test Management 2.0 - ATF Tests 
 e. Automated Test Framework (already enabled)
+
 ![](images/plugins.pdf)
 
 ## Planning the layout of our application
-In this lab, we've identified a common test template. We've high-lighted where to potentially track other values so that integration with Test Management and Automated Test Framework can be implemented. 
+In this lab, we've identified a commonly used test template using excel. We've high-lighted where to potentially track other values so that integration with Test Management and Automated Test Framework can be implemented.
+
 ![](images/atf_and_test_excel.png)
 
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
@@ -339,6 +341,12 @@ When you publish an application, it creates an update set with the current versi
 
 
 ## How to publish my scoped application to the ServiceNow&reg; Share
-goto to share
-## Other areas to expand the Testing Scripts Scoped Application. 
-check with test management and atf
+Here are sample instructions for publishing a scoped app to Share
+https://developer.servicenow.com/blog.do?p=/post/publishing-spoke-to-share/
+https://developer.servicenow.com/blog.do?p=/post/first-share-item/
+
+## Other areas to expand the Testing Scripts Scoped Application.
+Provide info on getting scoped app certified on Store
+integration with test mgmt and ATF
+https://developer.servicenow.com/blog.do?p=/post/o-atf/
+https://developer.servicenow.com/blog.do?p=/tags/automated-test-framework/
