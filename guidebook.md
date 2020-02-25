@@ -341,12 +341,16 @@ When you publish an application, it creates an update set with the current versi
 
 
 ## How to publish my scoped application to the ServiceNow&reg; Share
-Here are sample instructions for publishing a scoped app to Share
+Here are sample instructions for publishing a scoped app to Share:
+
 https://developer.servicenow.com/blog.do?p=/post/publishing-spoke-to-share/
+
 https://developer.servicenow.com/blog.do?p=/post/first-share-item/
 
 ## Other areas to expand the Testing Scripts Scoped Application.
 Provide info on getting scoped app certified on Store
-integration with test mgmt and ATF
+integration with test mgmt and ATF:
+
 https://developer.servicenow.com/blog.do?p=/post/o-atf/
+
 https://developer.servicenow.com/blog.do?p=/tags/automated-test-framework/
