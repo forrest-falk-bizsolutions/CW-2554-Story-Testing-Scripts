@@ -274,8 +274,29 @@ After inserting all of the choices you should see them in choice list.
 
 ## Add Test Scripts as a Related List
 
-1. 
+Next we will work on creating a global update set to capture the Test Script related list we will be adding to the Story form.
 
+1. Let's turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
+
+![](images/gear_icon.png)
+
+2. Turn on **Show application picker in header** and **Show update set picker in header** under the **Developer** tab.
+
+![](images/turn_on_header_update_set_and_scope.gif)
+
+3. In the application picker in the header, change the application to **Global**.
+
+![](images/global_app_picker.png)
+
+1. In the left navigation bar, go to **System Update Sets -> Local Update Sets**. 
+
+![](images/local_update_sets_navbar.png)  
+
+2. At the top of the Update Sets List, click **New**.
+
+![](images/new_update_set.png)
+
+3. 
 
 # Lab 4: Recording Test Scripts
 
@@ -311,7 +332,7 @@ When you publish an application, it creates an update set with the current versi
 
 ![](images/related_links_published.png)  
 
-8. Now you can import it into a personal developer instance running Orlando or greater.
+8. Now you can import it into a personal developer instance running **Orlando** or greater.
 
 
 ## How to publish my scoped application to the ServiceNow&reg; Share
