@@ -268,6 +268,10 @@ Fail | fail | result_state | 10
 Suspended | suspended | result_state | 20
 Not Tested | not_tested | result_state | 30
 
+After inserting all of the choices you should see them in choice list.
+
+![](images/result_state_choice_list_full.png)
+
 
 
 
