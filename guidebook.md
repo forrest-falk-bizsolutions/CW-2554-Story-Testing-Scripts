@@ -330,6 +330,8 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 # Lab 4: Recording Test Scripts
 
+## Build your first test script
+
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
 
