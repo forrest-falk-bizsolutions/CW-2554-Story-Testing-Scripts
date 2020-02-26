@@ -324,7 +324,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/from_context_menu_related_list.png)
 
-12. You should now see the related list, list collector for the Scrum view. In the **Available** list on the left select **Test Script->Story** to highlight it. To move it over to the **Selected** list on the right, **click** the **>** icon.
+12. You should now see the related list, list collector for the Scrum view. In the **Available** list on the left select **Test Script->Story** to highlight it. To move it over to the **Selected** list on the right, **click** the **>** icon. Once the **Test Script->Story** related list has been moved over, click the **Save** button.
 
 ![](images/add_test_scripts_to_related_lists.gif)
 
