@@ -314,6 +314,17 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/story_testing_global_update_set.png)
 
+8. In the left navigation bar, go to **Agile Development -> Stories**.
+
+9. Once the list of stories load **click** on one of the stories to view the stories form. 
+
+10. Next open the form's context menu by **Right clicking** on the form's gray banner at the top. 
+
+11. In the context menu, go to **Configure -> Related Lists**. 
+
+![](images/from_context_menu_related_list.png)
+
+
 # Lab 4: Recording Test Scripts
 
 # Lab 5: Best Practices
