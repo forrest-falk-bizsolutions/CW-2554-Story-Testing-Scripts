@@ -308,9 +308,11 @@ Field |  Value
 Name | Story Testing Scripts - Global - Story Form Layout
 State | In progress
 Application | Global
-Description | Added the Test Scripts related list to the Story (rm_story) default view.  
+Description | Added the Test Scripts related list to the Story (rm_story) form's default view.  
 
-7. 
+7. Click **Submit and Make Current** to save the update and set it as your current update set. You should now see the new update set in the update set picker in the header.
+
+![](images/story_testing_global_update_set.png)
 
 # Lab 4: Recording Test Scripts
 
