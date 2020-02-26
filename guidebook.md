@@ -301,7 +301,16 @@ Next we will work on creating a global update set to capture the Test Script rel
 
 ![](images/new_update_set.png)
 
-6. 
+6. Fill out the update set with a deTestintailed name and description.
+
+Field |  Value 
+------------ | ------------- 
+Name | Story Testing Scripts - Global - Story Form Layout
+State | In progress
+Application | Global
+Description | Added the Test Scripts related list to the Story (rm_story) default view.  
+
+7. 
 
 # Lab 4: Recording Test Scripts
 
