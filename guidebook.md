@@ -308,7 +308,7 @@ Field |  Value
 Name | Story Testing Scripts - Global - Story Form Layout
 State | In progress
 Application | Global
-Description | Added the Test Scripts related list to the Story (rm_story) form's default view.  
+Description | Added the Test Scripts related list to the Story (rm_story) form's scrum view.  
 
 7. Click **Submit and Make Current** to save the update and set it as your current update set. You should now see the new update set in the update set picker in the header.
 
@@ -323,6 +323,10 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 11. In the context menu, go to **Configure -> Related Lists**. 
 
 ![](images/from_context_menu_related_list.png)
+
+12. You should now see the related list, list collector for the Scrum view. In the **Available** list on the left select **Test Script->Story** to highlight it. To move it over to the **Selected** list on the right, **click** the **>** icon.
+
+![](images/add_test_scripts_to_related_lists.gif)
 
 
 # Lab 4: Recording Test Scripts
