@@ -328,7 +328,6 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/add_test_scripts_to_related_lists.gif)
 
-
 # Lab 4: Recording Test Scripts
 
 # Lab 5: Best Practices
