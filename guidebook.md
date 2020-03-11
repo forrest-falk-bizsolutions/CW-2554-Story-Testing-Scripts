@@ -149,6 +149,7 @@ Input Variables | input_variables | String | 1000 |
 Expected Results | expected_results | String | 1000 | 
 Actual Result | actual_result | String | 1000 | 
 Result State | result_state | Choice | Dropdown with none  | 
+Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_script]
 
 
 28. Verify the fields and click **continue** to go to the table naming page.  
@@ -165,7 +166,7 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/test_step_table_is_ready.png)  
 
-31. You should now see the "Test Script", "Senario", and "Test Step" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
+31. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
 ![](images/all_tables_in_app.png) 
 
