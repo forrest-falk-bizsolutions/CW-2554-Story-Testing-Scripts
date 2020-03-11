@@ -76,7 +76,7 @@ Add the following fields to the Test Script table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
-Name | name | String | 40 |
+Name | name | String | 100 |
 Description | description | String | 1000 |
 Story | story | Reference | 32 | Story [rm_story]
 Tested By | tested_by | Reference | 32 | User [sys_user]
@@ -111,7 +111,7 @@ Add the following fields to the Scenario table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
-Name | name | String | 40 |
+Name | name | String | 100 |
 Description | description | String | 1000 |  
 Prerequisites | prerequisites | String | 1000 | 
 Personas | personas | String | 1000 | 
