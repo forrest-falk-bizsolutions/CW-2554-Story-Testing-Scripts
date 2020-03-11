@@ -8,17 +8,17 @@ Test scripts are sets of instructions that can be performed on a system to valid
 
 ## What are testing scripts and why should I use them?
 There are two applications in ServiceNow for executing test scripts: 
-Test Management: used to manage manual testing 
-Automated Test Framework: used for automated testing
+  * Test Management - used to manage manual testing 
+  * Automated Test Framework - used for automated testing
 
 In this lab, we will configure the platform to use both applications.
 
-To activate, in the application navigator, goto Plugins and activate each of the following plugins:
-a. Agile Development 2.0
-b. Agile development 2.0 ATF Tests
-c. Test Management 2.0
-d. Test Management 2.0 - ATF Tests 
-e. Automated Test Framework (already enabled)
+To activate, in the application navigator, go to Plugins and activate each of the following plugins:
+  * a. Agile Development 2.0
+  * b. Agile development 2.0 ATF Tests
+  * c. Test Management 2.0
+  * d. Test Management 2.0 - ATF Tests 
+  * e. Automated Test Framework (already enabled)
 
 ![](images/plugins.pdf)
 ![](images/plugins.png)
@@ -55,7 +55,8 @@ In this lab, we've identified a commonly used test template using excel. We've h
 ![](images/test_script_user_role.png)
 
 9. The role should now appear in the "Roles" list with the scope in front of it.
-![](images/test_script_role_added.png)
+
+    ![](images/test_script_role_added.png)
 
 10. Click **Continue** to go to the next step.
 
@@ -91,7 +92,7 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 ![](images/test_script_table_name.png)
 
 **Table label:** Test Script  
-**Table name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)
+**Table name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)   
 **Make extensible:** true
 
 17. Click the **Continue** button to create the table. It may take the system a few seconds to create the table.
@@ -118,12 +119,12 @@ Company | company | Reference | 32 | Company [core_company]
 
 22. Verify the fields and click **continue** to go to the table naming page.  
 
-23. Name the table with the information below and then click **Continue** to create the table.It may take a few seconds for the table to be created.
+23. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
 ![](images/scenario_table_name.png)
 
-**Table label:** Test Script  
-**Table name:** x_441376_sts_scenario (Your instance may have a different number in the table name.)
+**Table label:** Scenario  
+**Table name:** x_441376_sts_scenario (Your instance may have a different number in the table name.)   
 **Make extensible:** true  
 
 24. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.
@@ -156,9 +157,9 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/test_step_table_name.png)  
 
-**Table label:** Test Step 
-**Table name:** x_441376_sts_test_step (Your instance may have a different number in the table name.)
-**Make extensible:** true  
+**Table label:** Test Step   
+**Table name:** x_441376_sts_test_step (Your instance may have a different number in the table name.)  
+**Make extensible:** true   
 
 30. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.  
 
@@ -183,7 +184,7 @@ Result State | result_state | Choice | Dropdown with none  |
 **Name:** Story Testing Scripts  
 **Description:** Create testing scripts for stories.  
 **Tables:** Test Script, Scenario, Test Step  
-**Roles:** sdlc_user  
+**Roles:** test_script_user, scrum_user  
 
 2. You should now be on the "Nice! Here are the apps you've designed so far" screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
 
@@ -199,11 +200,16 @@ Result State | result_state | Choice | Dropdown with none  |
 
 ![](images/studio_table_select_test_script.png) 
 
-6. The Test Script table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Test Script table record. Click on **Design Form** in the related list section of the table record.  
+6. The Test Script table should show up in a new tab in the Studio content frame. Scroll down to the bottom of the Test Script table record. Click on **Design Form** in the related list section of the table record.  
 
 ![](images/design_form_related_list.png) 
 
-7. In the Form Designer, change the first section to be a **2 Column layout**. Then drag the Name, Version, Story, Reviewed By, and Tested By fields to the top section. Move the Description field to the bottom 1 column section. There should be no fields in the middle section. Go ahead and delete the section by clicking on the **X** in the corner. Finally, click the **Save** button to save the layout.
+7. * In the Form Designer, change the first section to be a **2 Column layout**. 
+   * Then drag the Name, Version, Story, Reviewed By, and Tested By fields to the top section.
+   *  Move the Description field to the bottom 1 column section. 
+   * There should be no fields in the middle section. 
+   * Go ahead and delete the section by clicking on the **X** in the corner. 
+   * Finally, click the **Save** button to save the layout.
 
 ![](images/test_script_designer_layout.gif)  
 
@@ -215,11 +221,16 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 
 ![](images/studio_table_select_scenario.png)
 
-9. The Scenario table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Scenario table record. Click on **Design Form** in the related list section of the table record. 
+9. The Scenario table should show up in a new tab in the Studio content frame. Scroll down to the bottom of the Scenario table record. Click on **Design Form** in the related list section of the table record. 
 
 ![](images/design_form_related_list.png)  
 
-10. In the Form Designer, add a new section by clicking on the **+**. Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. Drag down the **Prerequisites** and **Description** fields down to the new section on the bottom. Next change the the top Scenario section to a 2 Column section by clicking **1 Column** in the drop-down list and selecting **2 Column**. Now drag the **Personas** and the **Company** field to the right side of the top section. If it matches the video below, go ahead and click **Save**.
+10.  * In the Form Designer, add a new section by clicking on the **+**. 
+     * Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. 
+     * Drag down the **Prerequisites** and **Description** fields down to the new section on the bottom. 
+     * Next change the the top Scenario section to a 2 Column section by clicking **1 Column** in the drop-down list and selecting **2 Column**. 
+     * Now drag the **Personas** and the **Company** field to the right side of the top section. 
+     * If it matches the video below, go ahead and click **Save**.
 
 ![](images/scenario_designer_layout.gif)  
 
@@ -239,7 +250,7 @@ Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was
 
 ![](images/test_step_designer_layout.gif)  
 
-Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was created in the Studio Application Explorer.  
+Notice that a **Forms & UI -> Forms -> Test Step [Default view]** menu option was created in the Studio Application Explorer.  
 
 ![](images/test_step_form_menu_option.png)
 
