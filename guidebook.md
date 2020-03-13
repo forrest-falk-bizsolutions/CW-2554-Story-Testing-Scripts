@@ -170,7 +170,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 32. Click on the **Create table from scratch** and then click **Continue**.
 
-33. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
+33. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below. For this section we need to add ACLs for M2m Test Script scenario
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
