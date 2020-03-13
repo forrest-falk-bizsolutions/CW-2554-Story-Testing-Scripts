@@ -181,7 +181,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![](images/all_tables_in_app.png)  
+![](images/m2m_test_script_scenario_is_ready.png) 
 
 **Table label:** M2M Test Script Scenario   
 **Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
@@ -189,13 +189,12 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 36. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page. 
 
-![](images/m2m_test_script_scenario_is_ready.png)  
 
-31. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
+37. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
 ![](images/all_tables_in_app.png) 
 
-32. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
+38. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
 
 ![](images/time_to_design_app.png) 
 
