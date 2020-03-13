@@ -170,7 +170,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 32. Click on the **Create table from scratch** and then click **Continue**.
 
-33. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below. For this section we need to add ACLs for M2m Test Script scenario
+33. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
@@ -366,7 +366,34 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 # Lab 4: Recording Test Scripts
 
-## Build your first test script
+## Build your first test script  
+
+1. In the application select **Data Model -> Tables -> Test Script**
+
+![](images/studio_table_select_test_script.png) 
+
+2. Right click on the top banner and go to Configure -> Related Lists.
+
+![](images/test_script_related_list.png)  
+
+3. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
+
+![](images/add_m2m_to_test_script.gif)
+
+4. Navigate to **Story Testing Scripts > Test Script > Create New**
+
+![](images/create_new_test_script.png)
+
+5. Create a new Test Scipt with the following:
+
+**Name:** Verify Service Desk Managers group, users, and roles  
+**Story:** The IT Director would like a new group in ServiceNow called "Service Desk Managers"    
+**Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly check another user in the group for the "itil" role.  
+**Version:** 1   
+
+6. Click save on the top banner and under the form you should see a M2M Test Script Scenarios Form.  
+
+![](images/m2m_form_under_test_script.png)
 
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
