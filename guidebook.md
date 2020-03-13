@@ -131,7 +131,7 @@ Company | company | Reference | 32 | Company [core_company]
 
 ![](images/scenario_table_is_ready.png)  
 
-25. You should now see the "Test Script" table and the "Senario" table listed in the tables for your application. We are going to repeat the process one more time for the "Test Steps" table. Go ahead and click **Create new table**.
+25. You should now see the "Test Script" table and the "Senario" table listed in the tables for your application. We are going to repeat the process two more times for the "Test Steps" table. Go ahead and click **Create new table**.
 
 ![](images/test_script_and_scenario_tables_in_app.png)  
 
@@ -154,17 +154,42 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 28. Verify the fields and click **continue** to go to the table naming page.  
 
-29. Name the table with the information below and then click **Continue** to create the table.It may take a few seconds for the table to be created.
+29. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
 ![](images/test_step_table_name.png)  
 
 **Table label:** Test Step   
 **Table name:** x_441376_sts_test_step (Your instance may have a different number in the table name.)  
-**Make extensible:** true   
+**Make extensible:** true  
 
 30. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.  
 
-![](images/test_step_table_is_ready.png)  
+31. You should now see the "Test Script" table, "Senario" table and "Test Steps" table listed in the tables for your application. We are going to repeat the process one last time for the "M2M Test Script Scenario" table. Go ahead and click **Create new table**.
+
+![](images/test_script_scenario_test_step_tables.png)
+
+32. Click on the **Create table from scratch** and then click **Continue**.
+
+33. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
+
+Field Label | Field Name | Type | Length | Reference
+------------ | ------------- | ------------- | ------------- | -------------
+Scenario | scenario | Reference |  32  | Scenario [x_441376_sts_scenario] | 
+Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_script] |
+
+34. Verify the fields and click **continue** to go to the table naming page.  
+
+35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
+
+![](images/all_tables_in_app.png)  
+
+**Table label:** M2M Test Script Scenario   
+**Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
+**Make extensible:** true 
+
+36. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page. 
+
+![](images/m2m_test_script_scenario_is_ready.png)  
 
 31. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
