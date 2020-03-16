@@ -382,7 +382,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 4. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
 
-![](images/create_new_test_script.png)
+![](images/create_new_test_script.PNG)
 
 5. Create a new Test Scipt with the following:
 
