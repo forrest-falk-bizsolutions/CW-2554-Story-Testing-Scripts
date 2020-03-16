@@ -409,13 +409,21 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/scenario_form.PNG)
 
-**Name:** Admin User  
-**Personas:** admin  
-**Company:** ACME Americas (Your choice of a company)  
-**Prerequisites:** Must have the admin role.  
-**Description:** Designed to test as an ServiceNow admin user.  
+**Name:** Beth Anglin  
+**Personas:** itil user, Service Desk Manager  
+**Company:** ACME Americas    
+**Prerequisites:** Must have the "itil" role and be a member of the "Service Desk Managers" group.  
+**Description:** Use this user to test a Service Desk Manager.
 
-11. After creating the scenario let's go back to Test Script and Create M2M Test Script Scenario by pressing New button.  
+11. After Creating a Scenario with Beth Anglin we need to create Alissa Mountjoy and Alfonso Griglen. We will start with Alfonso Griglen. Fill in the fields with provided information.  
+
+**Name:** Alfonso Griglen  
+**Personas:** General user with no roles  
+**Company:** ACME China  
+**Prerequisites:** Make sure this user has no roles assigned to them.  
+**Description:** Basic user with no roles.  
+
+11. Let's go back to Test Script and Create M2M Test Script Scenarios by pressing New button.  
 
 ![](images/create_m2m_scenario.PNG)
 
@@ -423,7 +431,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/m2m_scenario_complete_form.PNG)  
 
-13. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Admin User.  
+13. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
 
 ![](images/test_script_m2m_scenarios.PNG)  
 
