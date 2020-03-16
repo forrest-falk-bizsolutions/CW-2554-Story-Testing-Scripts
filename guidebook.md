@@ -380,7 +380,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/add_m2m_to_test_script.gif)
 
-4. Navigate to **Story Testing Scripts > Test Script > Create New**
+4. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
 
 ![](images/create_new_test_script.png)
 
@@ -394,6 +394,64 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 6. Click save on the top banner and under the form you should see a M2M Test Script Scenarios Form.  
 
 ![](images/m2m_form_under_test_script.png)
+
+7. next to M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
+
+![](images/M2m_edit_button_enable_1.png)
+
+8. In List Control form at the bottom select "Enable Edit" and it should redirect to the previous form.  
+
+![](images/m2m_enable_edit_button.png)
+
+9. After Test Script is all configured we now will create a new scenario for our test script. In the left navigation bar go to **Story Testing Scripts > Scenario > Create New**
+
+10. In the new choice record, make sure the fields are filled out with the below information. Verify the information in the form and click Submit to submit the choice.   
+
+![](images/scenario_form.png)
+
+**Name:** Admin User  
+**Personas:** admin  
+**Company:** ACME Americas (Your choice of a company)  
+**Prerequisites:** Must have the admin role.  
+**Description:** Designed to test as an ServiceNow admin user.  
+
+11. After creating the scenario let's go back to Test Script and Create M2M Test Script Scenario by pressing New button.  
+
+![](images/create_m2m_scenario.png)
+
+12. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
+
+![](images/m2m_scenario_complete_form.png)  
+
+13. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Admin User.  
+
+![](images/test_script_m2m_scenarios.png)  
+
+14. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+
+![](images/m2m_list_layout_update.png)  
+
+15. Arrange the list layout as shown to view information about the Scenario.  
+
+![](images/m2m_list_layout_update.gif)
+
+16. Now you should see more infomration about M2M Test Script Scenario.
+
+![](images/updated_m2m.png)
+
+17. The next step is creating the Test Step. Go back to the Test Script form and select Test Step next to M2M Test Script Scenarios and click on **New**.
+
+18. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.  
+
+![](images/test_step_record.png)
+
+**Number:** 1  
+**Description:** Login as Beth  
+**Input Values:** username= password=    
+**Expected Results:** Should login to ServiceNow UI  
+**Actual Results:**
+
+
 
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
