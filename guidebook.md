@@ -364,48 +364,60 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/add_test_scripts_to_related_lists.gif)
 
+13. In the application select **Data Model -> Tables -> Test Script**
+
+![](images/studio_table_select_test_script.png) 
+
+14. Right click on the top banner and go to Configure -> Related Lists.
+
+![](images/test_script_related_list.png)  
+
+15. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
+
+![](images/add_m2m_to_test_script.gif)
+
+16. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
+
+![](images/create_new_test_script.PNG)
+
+17. Click save on the top banner and under the form you should see a M2M Test Script Scenarios Form.  
+
+![](images/m2m_form_under_test_script.PNG)
+
+18. next to M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
+
+![](images/M2m_edit_button_enable_1.PNG)
+
+19. In List Control form at the bottom select "Enable Edit" and it should redirect to the previous form.  
+
+![](images/m2m_enable_edit_button.PNG)
+
+20. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+
+![](images/m2m_list_layout_update.PNG)  
+
+21. Arrange the list layout as shown to view information about the Scenario.  
+
+![](images/m2m_list_layout_update.gif)
+
+22. Now you should see more infomration about M2M Test Script Scenario.
+
+![](images/updated_m2m.PNG)
+
 # Lab 4: Recording Test Scripts
 
 ## Build your first test script  
 
-1. In the application select **Data Model -> Tables -> Test Script**
-
-![](images/studio_table_select_test_script.png) 
-
-2. Right click on the top banner and go to Configure -> Related Lists.
-
-![](images/test_script_related_list.png)  
-
-3. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
-
-![](images/add_m2m_to_test_script.gif)
-
-4. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
-
-![](images/create_new_test_script.PNG)
-
-5. Create a new Test Scipt with the following:
+1. Create a new Test Scipt with the following:
 
 **Name:** Verify Service Desk Managers group, users, and roles  
 **Story:** The IT Director would like a new group in ServiceNow called "Service Desk Managers"    
 **Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly check another user in the group for the "itil" role.  
 **Version:** 1   
 
-6. Click save on the top banner and under the form you should see a M2M Test Script Scenarios Form.  
+2. After Test Script is all configured we now will create a new scenario for our test script. In the left navigation bar go to **Story Testing Scripts > Scenario > Create New**
 
-![](images/m2m_form_under_test_script.PNG)
-
-7. next to M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
-
-![](images/M2m_edit_button_enable_1.PNG)
-
-8. In List Control form at the bottom select "Enable Edit" and it should redirect to the previous form.  
-
-![](images/m2m_enable_edit_button.PNG)
-
-9. After Test Script is all configured we now will create a new scenario for our test script. In the left navigation bar go to **Story Testing Scripts > Scenario > Create New**
-
-10. In the new choice record, make sure the fields are filled out with the below information. Verify the information in the form and click Submit to submit the choice.   
+3. In the new choice record, make sure the fields are filled out with the below information. Verify the information in the form and click Submit to submit the choice.   
 
 ![](images/scenario_form.PNG)
 
@@ -415,7 +427,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Prerequisites:** Must have the "itil" role and be a member of the "Service Desk Managers" group.  
 **Description:** Use this user to test a Service Desk Manager.
 
-11. After Creating a Scenario with Beth Anglin we need to create Alissa Mountjoy and Alfonso Griglen. We will start with Alfonso Griglen. Fill in the fields with provided information.  
+4. After Creating a Scenario with Beth Anglin we need to create Alissa Mountjoy and Alfonso Griglen. We will start with Alfonso Griglen. Fill in the fields with provided information.  
 
 **Name:** Alfonso Griglen  
 **Personas:** General user with no roles  
@@ -423,33 +435,21 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Prerequisites:** Make sure this user has no roles assigned to them.  
 **Description:** Basic user with no roles.  
 
-11. Let's go back to Test Script and Create M2M Test Script Scenarios by pressing New button.  
+5. Let's go back to Test Script and Create M2M Test Script Scenarios by pressing New button.  
 
 ![](images/create_m2m_scenario.PNG)
 
-12. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
+6. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
 
 ![](images/m2m_scenario_complete_form.PNG)  
 
-13. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
+7. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
 
 ![](images/test_script_m2m_scenarios.PNG)  
 
-14. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+8. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
 
-![](images/m2m_list_layout_update.PNG)  
-
-15. Arrange the list layout as shown to view information about the Scenario.  
-
-![](images/m2m_list_layout_update.gif)
-
-16. Now you should see more infomration about M2M Test Script Scenario.
-
-![](images/updated_m2m.PNG)
-
-17. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
-
-18. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.  
+9. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.  
 
 ![](images/test_step_record.PNG)
 
@@ -459,7 +459,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Expected Results:** Should login to ServiceNow UI  
 **Actual Results:**
 
-19. Repeat the proccess of filling the Test Step with the following information, and press insert and stay on the top bar.
+10. Repeat the proccess of filling the Test Step with the following information, and press insert and stay on the top bar.
 
 **Number:** 2  
 **Description:** Navigate to Incidents > Create New  
@@ -479,23 +479,23 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
 **Actual Results:** 
 
-20. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
+11. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
 
 ![](images/test_test_steps_1.PNG)
 
-21. Our next Test Step is to go to left Filter Navigator and navigate to **Incidents > Create New**. There you should see a blank Incident to be submited.  
+12. Our next Test Step is to go to left Filter Navigator and navigate to **Incidents > Create New**. There you should see a blank Incident to be submited.  
 
 ![](images/test_test_steps_2.PNG)
 
-23. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
+13. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
 
 ![](images/test_test_steps_3.PNG)
 
-24. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
+14. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
 
 ![](images/test_test_steps_4.PNG)
 
-25. We Tested for Beth Anglin, so lets create Test Steps for Alfonso Griglen, user that does not have any roles.
+15. We Tested for Beth Anglin, so lets create Test Steps for Alfonso Griglen, user that does not have any roles.
 
 **Number:** 5  
 **Description:** Login as Alfonso Griglen  
