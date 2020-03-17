@@ -520,6 +520,25 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
 
+Story Testing Scripts Scoped Application is powerful tool to help developers create test scripts for stories. Using well defined requirements to assure the team for testing. This application is easy to use and it is very descriptive of its functionality. Here are some best practices for one should follow in designing the Story Testing Scripts Scoped Application:
+
+1. Define involved users and roles of the story
+    * Check the stories that are present in the story and understand what they do.
+    * Understand what users are involed in the story and if they are relavant to it.
+
+2. Create a Test Script  
+    * Using the Description of the story...
+
+3. Create Scenario for the story
+    * With the defined task we create a Scenario with users that are relavant to the story.
+
+4. Create M2M Test Script Scenarios
+    * Verify that the users and the information about their task is useful for testing.
+
+5. Create Test Steps
+    * Using Story and users involved define steps that need to be taken to verify the resolved story.
+    * After Creating Test Steps take these steps to see if the story was actually resolved.
+
 # Lab 6: Extra Credit
 
 ## How to publish my scoped application to an update set
