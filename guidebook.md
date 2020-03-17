@@ -447,7 +447,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/updated_m2m.PNG)
 
-17. The next step is creating the Test Step. Go back to the Test Script form and select Test Step next to M2M Test Script Scenarios and click on **New**.
+17. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
 
 18. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.  
 
@@ -455,11 +455,45 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 **Number:** 1  
 **Description:** Login as Beth  
-**Input Values:** username= password=    
+**Input Values:** username=beth.anglin password=Knowledge20    
 **Expected Results:** Should login to ServiceNow UI  
 **Actual Results:**
 
+19. Repeat the proccess of filling the Test Step with the following information, and press insert and stay on the top bar.
 
+**Number:** 2  
+**Description:** Navigate to Incidents > Create New  
+**Input Values:** N/A    
+**Expected Results:** Opens a blank Incident to be submited  
+**Actual Results:**  
+
+**Number:** 3  
+**Description:** Attempt to assign new incident to the "Service Desk Managers" group. This will prove that the group has been created in the ServiceNow  
+**Input Values:** Assignment Group = Service Desk Managers    
+**Expected Results:** Assignment Group field is filled in with Service Desk Managers  
+**Actual Results:**  
+
+**Number:** 4  
+**Description:** Assign Beth Anglin to the Assigned to field on the incident. Service Desk Managers group should already be selected on the incident  
+**Input Values:** Assignment Group = Service Desk Managers, Assignt To = Beth Anglin    
+**Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
+**Actual Results:** 
+
+20. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
+
+![](images/test_test_steps_1.PNG)
+
+21. Our next Test Step is to go to left Filter Navigator and navigate to **Incidents > Create New**. There you should see a blank Incident to be submited.  
+
+![](images/test_test_steps_2.PNG)
+
+23. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
+
+![](images/test_test_steps_3.PNG)
+
+24. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
+
+![](images/test_test_steps_4.PNG)
 
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
