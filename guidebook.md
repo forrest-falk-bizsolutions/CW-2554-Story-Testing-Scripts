@@ -495,6 +495,28 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/test_test_steps_4.PNG)
 
+25. We Tested for Beth Anglin, so lets create Test Steps for Alfonso Griglen, user that does not have any roles.
+
+**Number:** 5  
+**Description:** Login as Alfonso Griglen  
+**Input Values:** username=alfonso.griglen password=Knowledge20    
+**Expected Results:** Should login to ServiceNow UI  
+**Actual Results:** 
+
+**Number:** 6  
+**Description:** Navigate to Self-Service > Incidents > New
+**Input Values:** N/A    
+**Expected Results:** Opens a Self-Service Incident request  
+**Actual Results:**
+
+26. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
+
+![](images/test_test_steps_5.PNG)
+
+27. Navigate to Incident Creation from Self-Service.
+
+![](images/test_test_steps_6.gif)
+
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
 
