@@ -509,11 +509,11 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
 
-26. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
+16. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
 
 ![](images/test_test_steps_5.PNG)
 
-27. Navigate to Incident Creation from Self-Service.
+17. Navigate to Incident Creation from Self-Service.
 
 ![](images/test_test_steps_6.gif)
 
