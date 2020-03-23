@@ -377,7 +377,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 15. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
 
-![relative](images/add_m2m_to_test_script.gif)
+![relative](images/add_m2m_to_test_script_2.gif)
 
 16. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
 
