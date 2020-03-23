@@ -21,13 +21,13 @@ To activate, in the application navigator, go to Plugins and activate each of th
   * e. Automated Test Framework (already enabled)
 
 ![](images/plugins.pdf)
-![](images/plugins.png)
+![relative](images/plugins.png)
 
 
 ## Planning the layout of our application
 In this lab, we've identified a commonly used test template using excel. We've high-lighted where to potentially track other values so that integration with Test Management and Automated Test Framework can be implemented.
 
-![](images/atf_and_test_excel.png)  
+![relative](images/atf_and_test_excel.png)  
 
 
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
@@ -35,10 +35,10 @@ In this lab, we've identified a commonly used test template using excel. We've h
 ## Create the Scoped Application
 
 1. Navigate to **System Applications > Studio.**  
-![](images/nav_studio.png)
+![relative](images/nav_studio.png)
 
 2. Click the **Create Application** button.  
-![](images/select_application.png)
+![relative](images/select_application.png)
 
 3. Click the **Let's get started** button on the "Welcome to the new way to set up your apps"
 
@@ -55,24 +55,24 @@ In this lab, we've identified a commonly used test template using excel. We've h
 7. On the "Let's create some roles for this app", click the **+Create new role** 
 
 8. Enter in "test_script_user" in the "New role name" field and click **Create**  
-![](images/test_script_user_role.png)
+![relative](images/test_script_user_role.png)
 
 9. The role should now appear in the "Roles" list with the scope in front of it.
 
-    ![](images/test_script_role_added.png)
+![relative](images/test_script_role_added.png)
 
 10. Click **Continue** to go to the next step.
 
 11. Our application will be used on stories in the classic view of ServiceNow. Select **Classic** and click **Continue** to go to the next page.  
-![](images/select_classic_view.png)
+![relative](images/select_classic_view.png)
 
 12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the arhitecture we mentioned previously in lab 1. Click on **Create new table**.  
 
 13. On the next screen select the **Create table from scratch** and click **Continue**.  
-![](images/create_table_from_scratch.png)
+![relative](images/create_table_from_scratch.png)
 
 14. We will be createing a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
-![](images/adding_fields_to_test_script_table.gif)  
+![relative](images/adding_fields_to_test_script_table.gif)  
 
 
 Add the following fields to the Test Script table:
@@ -92,7 +92,7 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 16. Now we will name the table the following:
 
-![](images/test_script_table_name.png)
+![relative](images/test_script_table_name.png)
 
 **Table label:** Test Script  
 **Table name:** x_441376_sts_test_script (Your instance may have a different number in the table name.)   
@@ -102,7 +102,7 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 18. You should see a "Success! Your table is ready" screen. Click on **continue** to build the Scenario table next.
 
-![](images/test_script_table_is_ready.png)
+![relative](images/test_script_table_is_ready.png)
 
 19. You should see the "Test Script" table is now in the "Tables" field of our app. We now need to add the Scenario table next. Let's go through the same proccess and click **Create new table**.
 
@@ -124,7 +124,7 @@ Company | company | Reference | 32 | Company [core_company]
 
 23. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![](images/scenario_table_name.png)
+![relative](images/scenario_table_name.png)
 
 **Table label:** Scenario  
 **Table name:** x_441376_sts_scenario (Your instance may have a different number in the table name.)   
@@ -132,11 +132,11 @@ Company | company | Reference | 32 | Company [core_company]
 
 24. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.
 
-![](images/scenario_table_is_ready.png)  
+![relative](images/scenario_table_is_ready.png)  
 
 25. You should now see the "Test Script" table and the "Senario" table listed in the tables for your application. We are going to repeat the process two more times for the "Test Steps" table. Go ahead and click **Create new table**.
 
-![](images/test_script_and_scenario_tables_in_app.png)  
+![relative](images/test_script_and_scenario_tables_in_app.png)  
 
 26. Click on the **Create table from scratch** and then click **Continue**.
 
@@ -159,7 +159,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 29. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![](images/test_step_table_name.png)  
+![relative](images/test_step_table_name.png)  
 
 **Table label:** Test Step   
 **Table name:** x_441376_sts_test_step (Your instance may have a different number in the table name.)  
@@ -169,7 +169,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 31. You should now see the "Test Script" table, "Senario" table and "Test Steps" table listed in the tables for your application. We are going to repeat the process one last time for the "M2M Test Script Scenario" table. Go ahead and click **Create new table**.
 
-![](images/test_script_scenario_test_step_tables.png)
+![relative](images/test_script_scenario_test_step_tables.png)
 
 32. Click on the **Create table from scratch** and then click **Continue**.
 
@@ -184,7 +184,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![](images/m2m_test_script_scenario_is_ready.png) 
+![relative](images/m2m_test_script_scenario_is_ready.png) 
 
 **Table label:** M2M Test Script Scenario   
 **Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
@@ -195,11 +195,11 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 37. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
-![](images/all_tables_in_app.PNG) 
+![relative](images/all_tables_in_app.PNG) 
 
 38. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
 
-![](images/time_to_design_app.png) 
+![relative](images/time_to_design_app.png) 
 
 
 # Lab 3: How to design your application  
@@ -207,7 +207,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 1. You should be on the "OK. Let's customer the design of your Classic App" screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
 
-![](images/application_details.png)  
+![relative](images/application_details.png)  
 
 **Name:** Story Testing Scripts  
 **Description:** Create testing scripts for stories.  
@@ -216,21 +216,21 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 2. You should now be on the "Nice! Here are the apps you've designed so far" screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
 
-![](images/finished_designing_app.png)
+![relative](images/finished_designing_app.png)
 
 3. Now that the app is created, you can click **Done** on the next page.
 
 4. In the "Select Application" menu. Select the "Story Testing Scripts" by clicking on the **Story Testing Scripts** name.  
 
-![](images/select_application_in_studio.png)  
+![relative](images/select_application_in_studio.png)  
 
 5. Now we will work on setting up the form layouts for all the tables. In the Application Explorer go to **Data Model -> Tables -> Test Script**.  
 
-![](images/studio_table_select_test_script.png) 
+![relative](images/studio_table_select_test_script.png) 
 
 6. The Test Script table should show up in a new tab in the Studio content frame. Scroll down to the bottom of the Test Script table record. Click on **Design Form** in the related list section of the table record.  
 
-![](images/design_form_related_list.png) 
+![relative](images/design_form_related_list.png) 
 
 7. * In the Form Designer, change the first section to be a **2 Column layout**. 
    * Then drag the Name, Version, Story, Reviewed By, and Tested By fields to the top section.
@@ -239,19 +239,19 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
    * Go ahead and delete the section by clicking on the **X** in the corner. 
    * Finally, click the **Save** button to save the layout.
 
-![](images/test_script_designer_layout.gif)  
+![relative](images/test_script_designer_layout.gif)  
 
 Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option was created in the Studio Application Explorer.  
 
-![](images/test_script_form_menu_option.png)
+![relative](images/test_script_form_menu_option.png)
 
 8. Now we will work on setting up the form layout for the scenario table. In the Application Explorer go to **Data Model -> Tables -> Scenario**.
 
-![](images/studio_table_select_scenario.png)
+![relative](images/studio_table_select_scenario.png)
 
 9. The Scenario table should show up in a new tab in the Studio content frame. Scroll down to the bottom of the Scenario table record. Click on **Design Form** in the related list section of the table record. 
 
-![](images/design_form_related_list.png)  
+![relative](images/design_form_related_list.png)  
 
 10.  * In the Form Designer, add a new section by clicking on the **+**. 
      * Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. 
@@ -260,27 +260,27 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
      * Now drag the **Personas** and the **Company** field to the right side of the top section. 
      * If it matches the video below, go ahead and click **Save**.
 
-![](images/scenario_designer_layout.gif)  
+![relative](images/scenario_designer_layout.gif)  
 
 Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was created in the Studio Application Explorer.  
 
-![](images/scenario_form_menu_option.png)
+![relative](images/scenario_form_menu_option.png)
 
 11. Now we will work on setting up the form layout for the scenario table. In the Application Explorer go to **Data Model -> Tables -> Test Step**.
 
-![](images/studio_table_select_test_step.png)
+![relative](images/studio_table_select_test_step.png)
 
 12. The Test Step table should show up in a new tab in the Studio conetent frame. Scroll down to the bottom of the Test Step table record. Click on **Design Form** in the related list section of the table record. 
 
-![](images/design_form_related_list.png)  
+![relative](images/design_form_related_list.png)  
 
 13. In the Form Designer, drag the **Description** field above the **Input Variables** field in the Test Step section. Once completed, click **Save**.  
 
-![](images/test_step_designer_layout.gif)  
+![relative](images/test_step_designer_layout.gif)  
 
 Notice that a **Forms & UI -> Forms -> Test Step [Default view]** menu option was created in the Studio Application Explorer.  
 
-![](images/test_step_form_menu_option.png)
+![relative](images/test_step_form_menu_option.png)
 
 ## Add Choices to the Result State Field
 
@@ -290,7 +290,7 @@ Notice that a **Forms & UI -> Forms -> Test Step [Default view]** menu option wa
 
 3. At the bottom of the Result State dictionary entry, click on the **Choices** tab and then click **New** to create a new choice.
 
-![](images/result_state_choice_list_empty.png)  
+![relative](images/result_state_choice_list_empty.png)  
 
 4. In the new choice record make sure the fields are filled out with the below information. Verify the information in the form and click **Submit** to submit the choice.
 
@@ -299,7 +299,7 @@ Label |  Value | Element | Sequence
 Pass | pass | result_state | 0  
 
 
-![](images/result_state_pass_choice.png)  
+![relative](images/result_state_pass_choice.png)  
 
 
 5. Once you submit the form it will return you back to the choice you just submitted. Add the remaining choices below by changing the information on the choice. Then right-click the top banner and click **Insert and Stay**.
@@ -314,7 +314,7 @@ Not Tested | not_tested | result_state | 30
 
 After inserting all of the choices you should see them in choice list.
 
-![](images/result_state_choice_list_full.png)
+![relative](images/result_state_choice_list_full.png)
 
 ## Add Test Scripts as a Related List
 
@@ -322,23 +322,23 @@ Next we will work on creating a global update set to capture the Test Script rel
 
 1. Let's turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
 
-![](images/gear_icon.png)
+![relative](images/gear_icon.png)
 
 2. Turn on **Show application picker in header** and **Show update set picker in header** under the **Developer** tab.
 
-![](images/turn_on_header_update_set_and_scope.gif)
+![relative](images/turn_on_header_update_set_and_scope.gif)
 
 3. In the application picker in the header, change the application to **Global**.
 
-![](images/global_app_picker.png)
+![relative](images/global_app_picker.png)
 
 4. In the left navigation bar, go to **System Update Sets -> Local Update Sets**. 
 
-![](images/local_update_sets_navbar.png)  
+![relative](images/local_update_sets_navbar.png)  
 
 5. At the top of the Update Sets List, click **New**.
 
-![](images/new_update_set.png)
+![relative](images/new_update_set.png)
 
 6. Fill out the update set with a deTestintailed name and description.
 
@@ -351,7 +351,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 7. Click **Submit and Make Current** to save the update and set it as your current update set. You should now see the new update set in the update set picker in the header.
 
-![](images/story_testing_global_update_set.png)
+![relative](images/story_testing_global_update_set.png)
 
 8. In the left navigation bar, go to **Agile Development -> Stories**.
 
@@ -361,51 +361,51 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 11. In the context menu, go to **Configure -> Related Lists**. 
 
-![](images/from_context_menu_related_list.png)
+![relative](images/from_context_menu_related_list.png)
 
 12. You should now see the related list, list collector for the Scrum view. In the **Available** list on the left select **Test Script->Story** to highlight it. To move it over to the **Selected** list on the right, **click** the **>** icon. Once the **Test Script->Story** related list has been moved over, click the **Save** button.
 
-![](images/add_test_scripts_to_related_lists.gif)
+![relative](images/add_test_scripts_to_related_lists.gif)
 
 13. In the application select **Data Model -> Tables -> Test Script**
 
-![](images/studio_table_select_test_script.png) 
+![relative](images/studio_table_select_test_script.png) 
 
 14. Right click on the top banner and go to Configure -> Related Lists.
 
-![](images/test_script_related_list.png)  
+![relative](images/test_script_related_list.png)  
 
 15. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
 
-![](images/add_m2m_to_test_script.gif)
+![relative](images/add_m2m_to_test_script.gif)
 
 16. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
 
-![](images/create_new_test_script.PNG)
+![relative](images/create_new_test_script.PNG)
 
 17. Click save on the top banner and under the form you should see a M2M Test Script Scenarios Form.  
 
-![](images/m2m_form_under_test_script.PNG)
+![relative](images/m2m_form_under_test_script.PNG)
 
 18. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
 
-![](images/M2m_edit_button_enable_1.PNG)
+![relative](images/M2m_edit_button_enable_1.PNG)
 
 19. In List Control form at the bottom select "Enable Edit" and it should redirect to the previous form.  
 
-![](images/m2m_enable_edit_button.PNG)
+![relative](images/m2m_enable_edit_button.PNG)
 
 20. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
 
-![](images/m2m_list_layout_update.PNG)  
+![relative](images/m2m_list_layout_update.PNG)  
 
 21. Arrange the list layout as shown to view information about the Scenario.  
 
-![](images/m2m_list_layout_update.gif)
+![relative](images/m2m_list_layout_update.gif)
 
 22. Now you should see more infomration about M2M Test Script Scenario.
 
-![](images/updated_m2m.PNG)
+![relative](images/updated_m2m.PNG)
 
 # Lab 4: Recording Test Scripts
 
@@ -422,7 +422,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 3. In the new choice record, make sure the fields are filled out with the below information. Verify the information in the form and click Submit to submit the choice.   
 
-![](images/scenario_form.PNG)
+![relative](images/scenario_form.PNG)
 
 **Name:** Beth Anglin  
 **Personas:** itil user, Service Desk Manager  
@@ -440,21 +440,21 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 5. Let's go back to Test Script and Create M2M Test Script Scenarios by pressing New button.  
 
-![](images/create_m2m_scenario.PNG)
+![relative](images/create_m2m_scenario.PNG)
 
 6. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
 
-![](images/m2m_scenario_complete_form.PNG)  
+![relative](images/m2m_scenario_complete_form.PNG)  
 
 7. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
 
-![](images/test_script_m2m_scenarios.PNG)  
+![relative](images/test_script_m2m_scenarios.PNG)  
 
 8. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
 
 9. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.  
 
-![](images/test_step_record.PNG)
+![relative](images/test_step_record.PNG)
 
 **Number:** 1  
 **Description:** Login as Beth  
@@ -484,19 +484,19 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 11. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
 
-![](images/test_test_steps_1.PNG)
+![relative](images/test_test_steps_1.PNG)
 
 12. Our next Test Step is to go to left Filter Navigator and navigate to **Incidents > Create New**. There you should see a blank Incident to be submited.  
 
-![](images/test_test_steps_2.PNG)
+![relative](images/test_test_steps_2.PNG)
 
 13. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
 
-![](images/test_test_steps_3.PNG)
+![relative](images/test_test_steps_3.PNG)
 
 14. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
 
-![](images/test_test_steps_4.PNG)
+![relative](images/test_test_steps_4.PNG)
 
 15. We Tested for Beth Anglin, so lets create Test Steps for Alfonso Griglen, user that does not have any roles.
 
@@ -514,11 +514,11 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 16. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
 
-![](images/test_test_steps_5.PNG)
+![relative](images/test_test_steps_5.PNG)
 
 17. Navigate to Incident Creation from Self-Service.
 
-![](images/test_test_steps_6.gif)
+![relative](images/test_test_steps_6.gif)
 
 # Lab 5: Best Practices
 ## How to create successful testing scripts. 
@@ -554,27 +554,27 @@ When you publish an application, it creates an update set with the current versi
 
 1. In the left navigation bar **System Applications -> My Company Applications**.  
 
-![](images/my_company_applications_navbar.png)
+![relative](images/my_company_applications_navbar.png)
 
 2. Click the **In Development** tab.
 
-![](images/in_development_application_manager.png)
+![relative](images/in_development_application_manager.png)
 
 3. **Click** the application record you want to create an update set for. 
 
 4. Click the **Publish to Update Set** related link.
 
-![](images/publish_to_update_set_related_links.png)
+![relative](images/publish_to_update_set_related_links.png)
 
 5. For best practice, fill in the **Version** and **Description** fields as appropriate. In our case, we will use the information below.
 
-![](images/publish_to_update_set.png)
+![relative](images/publish_to_update_set.png)
 
 6. If all the information looks good, click **Publish**.
 
 7. Once the update set has completed you will be redirected to the "Story Testing Scripts" update set. You can now download your update set by clicking **Export to XML** in the related links.
 
-![](images/related_links_published.png)  
+![relative](images/related_links_published.png)  
 
 8. Now you can import it into a personal developer instance running **Orlando** or greater.
 
