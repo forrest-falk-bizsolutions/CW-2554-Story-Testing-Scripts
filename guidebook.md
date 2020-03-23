@@ -15,7 +15,7 @@ In this lab, we will configure the platform to use both applications.
 
 To activate, in the application navigator, go to Plugins and activate each of the following plugins:
   * a. Agile Development 2.0
-  * b. Agile development 2.0 ATF Tests
+  * b. Agile Development 2.0 ATF Tests
   * c. Test Management 2.0
   * d. Test Management 2.0 - ATF Tests 
   * e. Automated Test Framework (already enabled)
@@ -40,7 +40,7 @@ In this lab, we've identified a commonly used test template using excel. We've h
 2. Click the **Create Application** button.  
 ![relative](images/select_application.png)
 
-3. Click the **Let's get started** button on the "Welcome to the new way to set up your apps"
+3. Click the **Let's get started** button on the "Welcome to the new way to set up your apps".
 
 4. Fill out the following values on the "General Info" tab:
 
@@ -66,12 +66,12 @@ In this lab, we've identified a commonly used test template using excel. We've h
 11. Our application will be used on stories in the classic view of ServiceNow. Select **Classic** and click **Continue** to go to the next page.  
 ![relative](images/select_classic_view.png)
 
-12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the arhitecture we mentioned previously in lab 1. Click on **Create new table**.  
+12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the architecture we mentioned previously in lab 1. Click on **Create new table**.  
 
 13. On the next screen select the **Create table from scratch** and click **Continue**.  
 ![relative](images/create_table_from_scratch.png)
 
-14. We will be createing a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
+14. We will be creating a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
 ![relative](images/adding_fields_to_test_script_table.gif)  
 
 
@@ -205,7 +205,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 # Lab 3: How to design your application  
 ## Designing the Layout
 
-1. You should be on the "OK. Let's customer the design of your Classic App" screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
+1. You should be on the "OK. Let's customize the design of your Classic App" screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
 
 ![relative](images/application_details.png)  
 
