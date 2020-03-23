@@ -184,7 +184,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![relative](images/m2m_test_script_scenario_is_ready.png) 
+![](images/m2m_test_script_scenario_is_ready.png) 
 
 **Table label:** M2M Test Script Scenario   
 **Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
@@ -195,7 +195,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 37. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
-![relative](images/all_tables_in_app.PNG) 
+![](images/all_tables_in_app.png) 
 
 38. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
 
@@ -373,7 +373,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 14. Right click on the top banner and go to Configure -> Related Lists.
 
-![relative](images/test_script_related_list.png)  
+![](images/test_script_related_list.png)  
 
 15. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
 
