@@ -195,7 +195,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 37. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
-![](images/all_tables_in_app.png) 
+![](images/all_tables_in_app.PNG) 
 
 38. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
 
@@ -387,7 +387,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![](images/m2m_form_under_test_script.PNG)
 
-18. next to M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
+18. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
 
 ![](images/M2m_edit_button_enable_1.PNG)
 
