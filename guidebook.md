@@ -40,24 +40,24 @@ In this lab, we've identified a commonly used test template using excel. We've h
 2. Click the **Create Application** button.  
 ![relative](images/select_application.png)
 
-3. Click the **Let's get started** button on the "Welcome to the new way to set up your apps".
+3. Click the **Let's get started** button on the _Welcome to the new way to set up your apps_.
 
-4. Fill out the following values on the "General Info" tab:
+4. Fill out the following values on the _General Info_ tab:
 
 **Name:** Story Testing Scripts  
 **Description:** Create testing scripts for stories.  
 **Scope:** x_441376_sts (Note, your instance may have a different number.  
 
-5. Drag the "checkbox.png" image from the lab files to the "Drag or drop" icon area.
+5. Drag the **checkbox.png** image from the lab files to the **_Drag or drop_** icon area.
 
 6. Verify all the information is correct and click **Create**  
 
-7. On the "Let's create some roles for this app", click the **+Create new role** 
+7. On the _Let's create some roles for this app_, click the **+Create new role** 
 
-8. Enter in "test_script_user" in the "New role name" field and click **Create**  
+8. Enter in **test_script_user** in the _New role name_ field and click **Create**  
 ![relative](images/test_script_user_role.png)
 
-9. The role should now appear in the "Roles" list with the scope in front of it.
+9. The role should now appear in the **Roles** list with the scope in front of it.
 
 ![relative](images/test_script_role_added.png)
 
@@ -66,7 +66,7 @@ In this lab, we've identified a commonly used test template using excel. We've h
 11. Our application will be used on stories in the classic view of ServiceNow. Select **Classic** and click **Continue** to go to the next page.  
 ![relative](images/select_classic_view.png)
 
-12. You should now see the "Which data tables do you want to use for this app?" We will be building out new tables based on the architecture we mentioned previously in lab 1. Click on **Create new table**.  
+12. You should now see the _Which data tables do you want to use for this app?_ We will be building out new tables based on the architecture we mentioned previously in lab 1. Click on **Create new table**.  
 
 13. On the next screen select the **Create table from scratch** and click **Continue**.  
 ![relative](images/create_table_from_scratch.png)
@@ -100,15 +100,15 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 17. Click the **Continue** button to create the table. It may take the system a few seconds to create the table.
 
-18. You should see a "Success! Your table is ready" screen. Click on **continue** to build the Scenario table next.
+18. You should see a _Success! Your table is ready_ screen. Click on **continue** to build the Scenario table next.
 
 ![relative](images/test_script_table_is_ready.png)
 
-19. You should see the "Test Script" table is now in the "Tables" field of our app. We now need to add the Scenario table next. Let's go through the same proccess and click **Create new table**.
+19. You should see the **Test Script** table is now in the **_Tables_** field of our app. We now need to add the Scenario table next. Let's go through the same proccess and click **Create new table**.
 
 20. Click on the **Create table from scratch** and then click **Continue**.
 
-21. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the Scenario table with the information below.
+21. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the Scenario table with the information below.
 
 Add the following fields to the Scenario table:
 
@@ -120,7 +120,7 @@ Prerequisites | prerequisites | String | 1000 |
 Personas | personas | String | 1000 | 
 Company | company | Reference | 32 | Company [core_company]
 
-22. Verify the fields and click **continue** to go to the table naming page.  
+22. Verify the fields and click **Continue** to go to the table naming page.  
 
 23. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
@@ -130,17 +130,17 @@ Company | company | Reference | 32 | Company [core_company]
 **Table name:** x_441376_sts_scenario (Your instance may have a different number in the table name.)   
 **Make extensible:** true  
 
-24. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.
+24. You should see the _Success! Your table is ready_ page. Click **Continue** to move onto the next page.
 
 ![relative](images/scenario_table_is_ready.png)  
 
-25. You should now see the "Test Script" table and the "Senario" table listed in the tables for your application. We are going to repeat the process two more times for the "Test Steps" table. Go ahead and click **Create new table**.
+25. You should now see the **Test Script** table and the **Senario** table listed in the tables for your application. We are going to repeat the process two more times for the **Test Steps** and **M2M Test Script Scenario** table. Go ahead and click **Create new table**.
 
 ![relative](images/test_script_and_scenario_tables_in_app.png)  
 
 26. Click on the **Create table from scratch** and then click **Continue**.
 
-27. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the Test Steps table with the information below.
+27. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the Test Steps table with the information below.
 
 Add the following fields to the Test Steps table:
 
@@ -155,7 +155,7 @@ Result State | result_state | Choice | Dropdown with none  |
 Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_script]
 
 
-28. Verify the fields and click **continue** to go to the table naming page.  
+28. Verify the fields and click **Continue** to go to the table naming page.  
 
 29. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
@@ -165,22 +165,22 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 **Table name:** x_441376_sts_test_step (Your instance may have a different number in the table name.)  
 **Make extensible:** true  
 
-30. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page.  
+30. You should see the _Success! Your table is ready_ page. Click **Continue** to move onto the next page.  
 
-31. You should now see the "Test Script" table, "Senario" table and "Test Steps" table listed in the tables for your application. We are going to repeat the process one last time for the "M2M Test Script Scenario" table. Go ahead and click **Create new table**.
+31. You should now see the **Test Script** table, **Senario** table and **Test Steps** table listed in the tables for your application. We are going to repeat the process one last time for the **M2M Test Script Scenario** table. Go ahead and click **Create new table**.
 
 ![relative](images/test_script_scenario_test_step_tables.png)
 
 32. Click on the **Create table from scratch** and then click **Continue**.
 
-33. Now you should see the "+ Add a new field" screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
+33. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
 Scenario | scenario | Reference |  32  | Scenario [x_441376_sts_scenario] | 
 Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_script] |
 
-34. Verify the fields and click **continue** to go to the table naming page.  
+34. Verify the fields and click **Continue** to go to the table naming page.  
 
 35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
@@ -190,14 +190,14 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 **Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
 **Make extensible:** true 
 
-36. You should see the "Success! Your table is ready" page. Click **Continue** to move onto the next page. 
+36. You should see the _Success! Your table is ready_ page. Click **Continue** to move onto the next page. 
 
 
-37. You should now see the "Test Script", "Senario", and "Test Step", "M2M Test Script Scenario" table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
+37. You should now see the **Test Script**, **Senario**, and **Test Step**, **M2M Test Script Scenario** table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
 ![](images/all_tables_in_app.png) 
 
-38. You should now be on the "OK. It's time to design your apps!" page. On our classic application click **start** to jump into Lab 3. 
+38. You should now be on the _OK. It's time to design your apps!_ page. On our classic application click **Start** to jump into Lab 3. 
 
 ![relative](images/time_to_design_app.png) 
 
@@ -205,7 +205,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 # Lab 3: How to design your application  
 ## Designing the Layout
 
-1. You should be on the "OK. Let's customize the design of your Classic App" screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
+1. You should be on the _OK. Let's customize the design of your Classic App_ screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
 
 ![relative](images/application_details.png)  
 
@@ -214,13 +214,13 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 **Tables:** Test Script, Scenario, Test Step  
 **Roles:** test_script_user, scrum_user  
 
-2. You should now be on the "Nice! Here are the apps you've designed so far" screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
+2. You should now be on the _Nice! Here are the apps you've designed so far_ screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
 
 ![relative](images/finished_designing_app.png)
 
 3. Now that the app is created, you can click **Done** on the next page.
 
-4. In the "Select Application" menu. Select the "Story Testing Scripts" by clicking on the **Story Testing Scripts** name.  
+4. In the **Select Application** menu. Select the **Story Testing Scripts** by clicking on the **Story Testing Scripts** name.  
 
 ![relative](images/select_application_in_studio.png)  
 
@@ -391,7 +391,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![relative](images/M2m_edit_button_enable_1.PNG)
 
-19. In List Control form at the bottom select "Enable Edit" and it should redirect to the previous form.  
+19. In List Control form at the bottom select **Enable Edit** and it should redirect to the previous form.  
 
 ![relative](images/m2m_enable_edit_button.PNG)
 
@@ -414,8 +414,8 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 1. Create a new Test Scipt with the following:
 
 **Name:** Verify Service Desk Managers group, users, and roles  
-**Story:** The IT Director would like a new group in ServiceNow called "Service Desk Managers"    
-**Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly check another user in the group for the "itil" role.  
+**Story:** The IT Director would like a new group in ServiceNow called **Service Desk Managers**    
+**Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly check another user in the group for the **itil** role.  
 **Version:** 1   
 
 2. After Test Script is all configured we now will create a new scenario for our test script. In the left navigation bar go to **Story Testing Scripts > Scenario > Create New**
@@ -427,7 +427,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Name:** Beth Anglin  
 **Personas:** itil user, Service Desk Manager  
 **Company:** ACME Americas    
-**Prerequisites:** Must have the "itil" role and be a member of the "Service Desk Managers" group.  
+**Prerequisites:** Must have the **itil** role and be a member of the **Service Desk Managers** group.  
 **Description:** Use this user to test a Service Desk Manager.
 
 4. After Creating a Scenario with Beth Anglin we need to create Alissa Mountjoy and Alfonso Griglen. We will start with Alfonso Griglen. Fill in the fields with provided information.  
@@ -471,7 +471,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Actual Results:**  
 
 **Number:** 3  
-**Description:** Attempt to assign new incident to the "Service Desk Managers" group. This will prove that the group has been created in the ServiceNow  
+**Description:** Attempt to assign new incident to the **_Service Desk Managers_** group. This will prove that the group has been created in the ServiceNow  
 **Input Values:** Assignment Group = Service Desk Managers    
 **Expected Results:** Assignment Group field is filled in with Service Desk Managers  
 **Actual Results:**  
@@ -572,7 +572,7 @@ When you publish an application, it creates an update set with the current versi
 
 6. If all the information looks good, click **Publish**.
 
-7. Once the update set has completed you will be redirected to the "Story Testing Scripts" update set. You can now download your update set by clicking **Export to XML** in the related links.
+7. Once the update set has completed you will be redirected to the **Story Testing Scripts** update set. You can now download your update set by clicking **Export to XML** in the related links.
 
 ![relative](images/related_links_published.png)  
 
