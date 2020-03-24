@@ -514,7 +514,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 16. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
 
-![relative](images/test_test_steps_5.PNG)
+![](images/test_test_steps_5.PNG)
 
 17. Navigate to Incident Creation from Self-Service.
 
