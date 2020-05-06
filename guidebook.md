@@ -22,7 +22,7 @@ To activate, in the application navigator, go to Plugins and activate each of th
 
 Plugin installation should take about 5 minutes.
 
-![](images/plugins.pdf)
+
 ![relative](images/plugins.png)
 
 
