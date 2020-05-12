@@ -475,7 +475,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 8. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
 
-9. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.  
+9. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click Submit.    
 
 ![relative](images/test_step_record.PNG)
 
