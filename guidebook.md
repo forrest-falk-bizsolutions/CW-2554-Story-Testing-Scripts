@@ -13,14 +13,14 @@ There are two applications in ServiceNow for executing test scripts:
 
 In this lab, we will configure the platform to use both applications.
 
-To activate, in the application navigator, go to Plugins and activate each of the following plugins:
-  * a. Agile Development 2.0
-  * b. Agile Development 2.0 ATF Tests
-  * c. Test Management 2.0
-  * d. Test Management 2.0 - ATF Tests 
+Make sure that on your instance you have the following Plugings Installed and activated:
+  * a. Agile Development 2.0 (Paid Plugin)
+  * b. Agile Development 2.0 ATF Tests (Optional)
+  * c. Test Management 2.0 
+  * d. Test Management 2.0 - ATF Tests (Optional)
   * e. Automated Test Framework (already enabled)
 
-Plugin installation should take about 5 minutes.
+If you do not have them installed Navigate to Service Managment application navigator and search for "Plugin". Installation should take about 5 minutes.
 
 ![](images/plugins.pdf)
 ![relative](images/plugins.png)
@@ -31,6 +31,8 @@ In this lab, we've identified a commonly used test template using excel. We've h
 
 ![relative](images/atf_and_test_excel.png)  
 
+
+In the lab 2 session there is an option to download a **checkbox.png** file from github for application image custamization. 
 
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
@@ -54,10 +56,11 @@ In this lab, we've identified a commonly used test template using excel. We've h
 
 6. Verify all the information is correct and click **Create**  
 
-7. On the _Let's create some roles for this app_, click the **+Create new role** 
+7. On the _Let's create some roles for this app_, search for **scrum_user** role and insert it. After you inserted srum_user role click the **+Create new role** 
 
 8. Enter in **test_script_user** in the _New role name_ field and click **Create**  
 ![relative](images/test_script_user_role.png)
+
 
 9. The role should now appear in the **Roles** list with the scope in front of it.
 
@@ -136,7 +139,7 @@ Company | company | Reference | 32 | Company [core_company]
 
 ![relative](images/scenario_table_is_ready.png)  
 
-25. You should now see the **Test Script** table and the **Senario** table listed in the tables for your application. We are going to repeat the process two more times for the **Test Steps** and **M2M Test Script Scenario** table. Go ahead and click **Create new table**.
+25. You should now see the **Test Script** table and the **Senario** table listed in the tables for your application. We are going to repeat the process two more times for the **Test Step** and **M2M Test Script Scenario** table. Go ahead and click **Create new table**.
 
 ![relative](images/test_script_and_scenario_tables_in_app.png)  
 
@@ -213,7 +216,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 **Name:** Story Testing Scripts  
 **Description:** Create testing scripts for stories.  
-**Tables:** Test Script, Scenario, Test Step  
+**Tables:** Test Script, Scenario, Test Step, M2M Test Script Scenario  
 **Roles:** test_script_user, scrum_user  
 
 2. You should now be on the _Nice! Here are the apps you've designed so far_ screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
@@ -243,7 +246,12 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 ![relative](images/test_script_designer_layout.gif)  
 
-Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option was created in the Studio Application Explorer.  
+
+The Test Script Form layout should look like the following picture.
+
+![relative](images/test_script_designer_layout.png)
+
+Close the Form Design tab in your browser and go back to the Studio Application Explorer, you should notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option was created in the Studio Application Explorer.  
 
 ![relative](images/test_script_form_menu_option.png)
 
@@ -264,7 +272,11 @@ Notice that a **Forms & UI -> Forms -> Test Script [Default view]** menu option 
 
 ![relative](images/scenario_designer_layout.gif)  
 
-Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was created in the Studio Application Explorer.  
+Scenario Form layout should look like the following picture.
+
+![relative](images/scenario_designer_layout.png)
+
+Close the Form Design tab in your browser and go back to the Studio Application Explorer, you should notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was created in the Studio Application Explorer.  
 
 ![relative](images/scenario_form_menu_option.png)
 
@@ -280,7 +292,12 @@ Notice that a **Forms & UI -> Forms -> Scenario [Default view]** menu option was
 
 ![relative](images/test_step_designer_layout.gif)  
 
-Notice that a **Forms & UI -> Forms -> Test Step [Default view]** menu option was created in the Studio Application Explorer.  
+
+Test Step Form layout should look like the following picture.
+
+![relative](images/test_step_designer_layout.png)
+
+Close the Form Design tab in your browser and go back to the Studio Application Explorer, you should notice that a **Forms & UI -> Forms -> Test Step [Default view]** menu option was created in the Studio Application Explorer.  
 
 ![relative](images/test_step_form_menu_option.png)
 
@@ -322,7 +339,7 @@ After inserting all of the choices you should see them in choice list.
 
 Next we will work on creating a global update set to capture the Test Script related list we will be adding to the Story form.
 
-1. Let's turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
+1. Let's navigate to Service Manager Portal, here we will turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
 
 ![relative](images/gear_icon.png)
 
@@ -369,43 +386,47 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![relative](images/add_test_scripts_to_related_lists.gif)
 
-13. In the application select **Data Model -> Tables -> Test Script**
+13. Let's navigate back to Application Studio and select **Data Model -> Tables -> Test Script**.
 
 ![relative](images/studio_table_select_test_script.png) 
 
-14. Right click on the top banner and go to Configure -> Related Lists.
+14.  Scroll down to related links and select **Show Form**.
+
+![relative](images/design_form_related_list.png)  
+
+15. In the Test Script Form right click on the top banner and go to Configure -> Related Lists.
 
 ![](images/test_script_related_list.png)  
 
-15. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
+16. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
 
 ![relative](images/add_m2m_to_test_script_2.gif)
 
-16. In the left navigation bar go to **Story Testing Scripts > Test Script > Create New**
+17. Navigate back to Service Managment Portal and in the left navigation bar go to **Story Testing Scripts > Test Script > Create New**. If Story Testing Scripts doesn't show up try refreshing the Portal.
 
 ![relative](images/create_new_test_script.PNG)
 
-17. Click save on the top banner and under the form you should see a M2M Test Script Scenarios Form.  
+18. Right click and select save from drop-down and under the form you should see a M2M Test Script Scenarios Form.  
 
 ![relative](images/m2m_form_under_test_script.PNG)
 
-18. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
+19. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
 
 ![relative](images/M2m_edit_button_enable_1.PNG)
 
-19. In List Control form at the bottom select **Enable Edit** and it should redirect to the previous form.  
+20. In List Control form at the bottom select **Enable Edit** and it should redirect to the previous form.  
 
 ![relative](images/m2m_enable_edit_button.PNG)
 
-20. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+21. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
 
 ![relative](images/m2m_list_layout_update.PNG)  
 
-21. Arrange the list layout as shown to view information about the Scenario.  
+22. Arrange the list layout as shown to view information about the Scenario.  
 
 ![relative](images/m2m_list_layout_update.gif)
 
-22. Now you should see more infomration about M2M Test Script Scenario.
+23. Now you should see more infomration about M2M Test Script Scenario.
 
 ![relative](images/updated_m2m.PNG)
 
@@ -413,7 +434,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ## Build your first test script  
 
-1. Create a new Test Scipt with the following:
+1. Using stroy that we have created before create a new Test Scipt with the following:
 
 **Name:** Verify Service Desk Managers group, users, and roles  
 **Story:** The IT Director would like a new group in ServiceNow called **Service Desk Managers**    
@@ -464,7 +485,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Expected Results:** Should login to ServiceNow UI  
 **Actual Results:**
 
-10. Repeat the proccess of filling the Test Step with the following information, and press insert and stay on the top bar.
+10. Repeat the process of filling the Test Step with the following information, and press **insert and stay** on the top bar.
 
 **Number:** 2  
 **Description:** Navigate to Incidents > Create New  
@@ -484,23 +505,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
 **Actual Results:** 
 
-11. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
-
-![relative](images/test_test_steps_1.PNG)
-
-12. Our next Test Step is to go to left Filter Navigator and navigate to **Incidents > Create New**. There you should see a blank Incident to be submited.  
-
-![relative](images/test_test_steps_2.PNG)
-
-13. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
-
-![relative](images/test_test_steps_3.PNG)
-
-14. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
-
-![relative](images/test_test_steps_4.PNG)
-
-15. We Tested for Beth Anglin, so lets create Test Steps for Alfonso Griglen, user that does not have any roles.
+11. Lets create Test Steps for Alfonso Griglen, user that does not have any roles.
 
 **Number:** 5  
 **Description:** Login as Alfonso Griglen  
@@ -513,6 +518,26 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 **Input Values:** N/A    
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
+
+12. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
+
+User name | Password |
+------------ | ------------- |
+beth.anglin | Knowledge20 | 
+
+![relative](images/test_test_steps_1.PNG)
+
+13. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
+
+![relative](images/test_test_steps_2.PNG)
+
+14. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
+
+![relative](images/test_test_steps_3.PNG)
+
+15. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
+
+![relative](images/test_test_steps_4.PNG)
 
 16. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
 
