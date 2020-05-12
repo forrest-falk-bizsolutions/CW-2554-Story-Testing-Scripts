@@ -22,7 +22,7 @@ Make sure that on your instance you have the following Plugings Installed and ac
 
 If you do not have them installed Navigate to Service Managment application navigator and search for "Plugin". Installation should take about 5 minutes.
 
-![](images/plugins.pdf)
+
 ![relative](images/plugins.png)
 
 
