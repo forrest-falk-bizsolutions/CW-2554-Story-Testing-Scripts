@@ -29,7 +29,7 @@ If you do not have them installed Navigate to Service Managment application navi
 ## Planning the layout of our application
 In this lab, we've identified a commonly used test template using excel. We've high-lighted where to potentially track other values so that integration with Test Management and Automated Test Framework can be implemented.
 
-![relative](images/atf_and_test_excel.png)  
+![relative](images/story_script_excel.png)  
 
 
 In the lab 2 session there is an option to download a **checkbox.png** file from github for application image custamization. 
@@ -76,7 +76,10 @@ In the lab 2 session there is an option to download a **checkbox.png** file from
 13. On the next screen select the **Create table from scratch** and click **Continue**.  
 ![relative](images/create_table_from_scratch.png)
 
-14. We will be creating a table for the test scripts first. Go ahead and click **Add a new field** and put in the following:  
+14. We will be creating a table for the Test Script first as seen below in our schema map. 
+![relative](images\highlighted_table_schema_5.png)
+
+Go ahead and click **Add a new field** and put in the following:  
 ![relative](images/adding_fields_to_test_script_table.gif)  
 
 
