@@ -112,7 +112,8 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 
 ![relative](images/test_script_table_is_ready.png)
 
-19. You should see the **Test Script** table is now in the **_Tables_** field of our app. We now need to add the Scenario table next. Let's go through the same proccess and click **Create new table**.
+19. You should see the **Test Script** table is now in the **_Tables_** field of our app. We now need to add the Scenario table from our schema map. Let's go through the same proccess and click **Create new table**.
+![relative](images/highlighted_table_schema.png)
 
 20. Click on the **Create table from scratch** and then click **Continue**.
 
