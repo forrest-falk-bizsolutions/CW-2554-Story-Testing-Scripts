@@ -147,7 +147,8 @@ Company | company | Reference | 32 | Company [core_company]
 
 ![relative](images/test_script_and_scenario_tables_in_app.png)  
 
-26. Click on the **Create table from scratch** and then click **Continue**.
+26. To create the **Test Step** table from the schema map, click on the **Create table from scratch** and then click **Continue**.
+![relative](images/highlighted_table_schema_3.png)
 
 27. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the Test Steps table with the information below.
 
@@ -180,7 +181,8 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 ![relative](images/test_script_scenario_test_step_tables.png)
 
-32. Click on the **Create table from scratch** and then click **Continue**.
+32. Finally let's make the **M2M Test Script Scenario** table from the schema map. Click on the **Create table from scratch** and then click **Continue**.
+![relative](images/highlighted_table_schema_2.png)
 
 33. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
 
