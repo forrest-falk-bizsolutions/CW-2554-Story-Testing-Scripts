@@ -392,6 +392,9 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![relative](images/add_test_scripts_to_related_lists.gif)
 
+End Result:
+![relative](images/story_related_list_end.png) 
+
 13. Let's navigate back to Application Studio and select **Data Model -> Tables -> Test Script**.
 
 ![relative](images/studio_table_select_test_script.png) 
@@ -407,6 +410,9 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 16. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
 
 ![relative](images/add_m2m_to_test_script_2.gif)
+
+End Result:
+![relative](images/test_script_related_list_end.PNG)
 
 17. Navigate back to Service Managment Portal and in the left navigation bar go to **Story Testing Scripts > Test Script > Create New**. If Story Testing Scripts doesn't show up try refreshing the Portal.
 
@@ -431,6 +437,9 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 22. Arrange the list layout as shown to view information about the Scenario.  
 
 ![relative](images/m2m_list_layout_update.gif)
+
+End Result:
+![relative](images/scenario_layout_end.png)
 
 23. Now you should see more infomration about M2M Test Script Scenario.
 
