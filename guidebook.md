@@ -570,8 +570,8 @@ beth.anglin | Knowledge20 |
 Story Testing Scripts Scoped Application is powerful tool to help developers create test scripts for stories. Using well defined requirements to assure the team for testing. This application is easy to use and it is very descriptive of its functionality. Here are some best practices for one should follow in designing the Story Testing Scripts Scoped Application:
 
 1. Define involved users and roles of the story
-* Check the stories that are present in the story and understand what they do.
-* Understand what users are involed in the story and if they are relavant to it.
+ * Check the stories that are present in the story and understand what they do.
+ * Understand what users are involed in the story and if they are relavant to it.
 
 2. Create a Test Script  
 * Using the Description of the story define the problem and solution of the story.
