@@ -569,23 +569,23 @@ beth.anglin | Knowledge20 |
 
 Story Testing Scripts Scoped Application is powerful tool to help developers create test scripts for stories. Using well defined requirements to assure the team for testing. This application is easy to use and it is very descriptive of its functionality. Here are some best practices for one should follow in designing the Story Testing Scripts Scoped Application:
 
-1. Define involved users and roles of the story
+1. **Define involved users and roles of the story**
     * Check the stories that are present in the story and understand what they do.
     * Understand what users are involed in the story and if they are relavant to it.
 
-2. Create a Test Script  
+2. **Create a Test Script**
     * Using the Description of the story define the problem and solution of the story.
     * Identify who will be reviewing and testing the story.
 
-3. Create Scenario for the story
+3. **Create Scenario for the story**
     * With the defined task we create a Scenario with users that are relavant to the story.
     * Clearly define the prerequisite fields with all necessary roles, groups and other configuration requirements.  
     * Write a clear description for a scenario.
 
-4. Create M2M Test Script Scenarios
+4.**Create M2M Test Script Scenarios**
     * Verify that the users and the information about their task is useful for testing.
 
-5. Create Test Steps
+5. **Create Test Steps**
     * Using Story and users involved define steps that need to be taken to verify the resolved story.
     * Write a clear Description for Tester to fulfill a given test task.
     * If needed include Input Variables that the Tester would use.
