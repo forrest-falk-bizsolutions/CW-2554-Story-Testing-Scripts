@@ -52,7 +52,8 @@ In the lab 2 session there is an option to download a **checkbox.png** file from
 **Description:** Create testing scripts for stories.  
 **Scope:** x_441376_sts (Note, your instance may have a different number.  
 
-5. Drag the **checkbox.png** image from the lab files to the **_Drag or drop_** icon area.
+5. **Optional:** Right click the **checkmark_icon.png** image below and select **"Save Image As..."**. Open the folder where you saved the checkmark_icon.png and **_Drag and drop_** it to the icon area in the application creator.
+![relative](files/checkmark_icon.png)
 
 6. Verify all the information is correct and click **Create**  
 
