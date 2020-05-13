@@ -18,7 +18,7 @@ Make sure that on your instance you have the following Plugings Installed and ac
   * b. Agile Development 2.0 ATF Tests (Optional)
   * c. Test Management 2.0 
   * d. Test Management 2.0 - ATF Tests (Optional)
-  * e. Automated Test Framework (already enabled)
+  * e. Automated Test Framework (Already Enabled)
 
 If you do not have them installed Navigate to Service Managment application navigator and search for "Plugin". Installation should take about 5 minutes.
 
@@ -56,11 +56,11 @@ In the lab 2 session there is an option to download a **checkbox.png** file from
 
 ![relative](files/checkmark_icon.png)
 
-6. Verify all the information is correct and click **Create**  
+6. Verify all the information is correct and click **Create**.  
 
-7. On the _Let's create some roles for this app_, search for **scrum_user** role and insert it. After you inserted srum_user role click the **+Create new role** 
+7. On the _Let's create some roles for this app_, search for **scrum_user** role and insert it. After you inserted srum_user role click the **Create new role**. 
 
-8. Enter in **test_script_user** in the _New role name_ field and click **Create**  
+8. Enter in **test_script_user** in the _New role name_ field and click **Create**.  
 ![relative](images/test_script_user_role.png)
 
 
@@ -271,12 +271,12 @@ Close the Form Design tab in your browser and go back to the Studio Application 
 
 ![relative](images/design_form_related_list.png)  
 
-10.  * In the Form Designer, add a new section by clicking on the **+**. 
-     * Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. 
-     * Drag down the **Prerequisites** and **Description** fields down to the new section on the bottom. 
-     * Next change the the top Scenario section to a 2 Column section by clicking **1 Column** in the drop-down list and selecting **2 Column**. 
-     * Now drag the **Personas** and the **Company** field to the right side of the top section. 
-     * If it matches the video below, go ahead and click **Save**.
+10. * In the Form Designer, add a new section by clicking on the **+**. 
+    * Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. 
+    * Drag down the **Prerequisites** and **Description** fields down to the new section on the bottom. 
+    * Next change the the top Scenario section to a 2 Column section by clicking **1 Column** in the drop-down list and selecting **2 Column**. 
+    * Now drag the **Personas** and the **Company** field to the right side of the top section. 
+    * If it matches the video below, go ahead and click **Save**.
 
 ![relative](images/scenario_designer_layout.gif)  
 
@@ -367,7 +367,7 @@ Next we will work on creating a global update set to capture the Test Script rel
 
 ![relative](images/new_update_set.png)
 
-6. Fill out the update set with a deTestintailed name and description.
+6. Fill out the update set with a detailed name and description.
 
 Field |  Value 
 ------------ | ------------- 
