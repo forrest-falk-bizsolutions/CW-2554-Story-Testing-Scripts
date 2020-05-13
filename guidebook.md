@@ -76,7 +76,7 @@ In the lab 2 session there is an option to download a **checkbox.png** file from
 13. On the next screen select the **Create table from scratch** and click **Continue**.  
 ![relative](images/create_table_from_scratch.png)
 
-14. We will be creating a table for the Test Script first as seen below in our schema map. 
+14. We will be creating a table for the **Test Script** first as seen below in our schema map. 
 ![relative](images/highlighted_table_schema_5.png)
 
 Go ahead and click **Add a new field** and put in the following:  
