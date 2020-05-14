@@ -409,7 +409,7 @@ End Result:
 
 ![](images/test_script_related_list.png)  
 
-16. You should now see the related list, list collector for the Scrum view. In the Available list on the left select M2M Test Script Scenario->Test Script and Test Step->Test Script to highlight it. To move it over to the Selected list on the right, click the > icon. Once the M2M Test Script Scenario->Test Script and Test Step->Test Script related list has been moved over, click the Save button.
+16. You should now see the related list, list collector for the Scrum view. In the Available list on the left select **M2M Test Script Scenario->Test Script** and **Test Step->Test Script** to highlight it. To move it over to the Selected list on the right, click the > icon. Once the **M2M Test Script Scenario->Test Script** and **Test Step->Test Script** related list has been moved over, click the **Save** button.
 
 ![relative](images/add_m2m_to_test_script_2.gif)
 
@@ -418,7 +418,7 @@ End Result:
 
 17. Navigate back to ServiceNow Desktop UI and refresh the page. This will load the application modules into the left navbar. 
 
-18. After the page refreshes navigate to **Story Testing Scripts > Test Script > Create New**. 
+18. After the page refreshes navigate to **Story Testing Scripts > Test Script > Create New** to create a new Test Script. 
 
 ![relative](images/create_new_test_script.PNG)
 
