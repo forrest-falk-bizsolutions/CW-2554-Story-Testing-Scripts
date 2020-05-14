@@ -20,7 +20,7 @@ Make sure that on your instance you have the following Plugings Installed and ac
   * d. Test Management 2.0 - ATF Tests (Optional)
   * e. Automated Test Framework (Already Enabled)
 
-If you do not have them installed Navigate to Service Managment application navigator and search for "Plugin". Installation should take about 5 minutes.
+If you do not have them installed Navigate to ServiceNow Desktop UI and search for "Plugin" in the left navbar. Installation should take about 5 minutes.
 
 
 ![relative](images/plugins.png)
@@ -347,7 +347,7 @@ After inserting all of the choices you should see them in choice list.
 
 Next we will work on creating a global update set to capture the Test Script related list we will be adding to the Story form.
 
-1. Let's navigate to Service Manager Portal, here we will turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
+1. Let's navigate to ServiceNow Desktop UI, here we will turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
 
 ![relative](images/gear_icon.png)
 
