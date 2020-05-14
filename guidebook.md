@@ -403,7 +403,7 @@ End Result:
 
 14.  Scroll down to related links and select **Show Form**.
 
-![relative](images/design_form_related_list.png)  
+![relative](images/show_form_related_list.png)  
 
 15. In the Test Script Form right click on the top banner and go to Configure -> Related Lists.
 
