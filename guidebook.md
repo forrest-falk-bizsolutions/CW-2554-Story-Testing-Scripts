@@ -26,7 +26,7 @@ If you do not have them installed Navigate to ServiceNow Desktop UI and search f
 ![relative](images/plugins.png)
 
 
-## Planning the layout of our application
+## Planning the Layout of Our Application
 In this lab, we've identified a commonly used test template using excel. We've high-lighted where to potentially track other values so that integration with Test Management and Automated Test Framework can be implemented.
 
 ![relative](images/story_script_excel.png)  
@@ -215,7 +215,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 ![relative](images/time_to_design_app.png) 
 
 
-# Lab 3: How to design your application  
+# Lab 3: How to Design Your Application  
 ## Designing the Layout
 
 1. You should be on the _OK. Let's customize the design of your Classic App_ screen. Fill in the the application details as you see them below. When you are ready, click **Create** to create the application.  
@@ -451,7 +451,7 @@ End Result:
 
 # Lab 4: Recording Test Scripts
 
-## Build your first test script  
+## Build Your First Test Script  
 
 1. Now we are going to build our first test script for a story where the IT Director would like a new **Service Desk Managers** group. In the left navbar, navigate to **Agile Development -> Stories**.
 
@@ -577,7 +577,7 @@ beth.anglin | Knowledge20 |
 ![relative](images/test_test_steps_6.gif)
 
 # Lab 5: Best Practices
-## How to create successful testing scripts. 
+## How to Create Successful Testing Scripts. 
 
 Story Testing Scripts Scoped Application is powerful tool to help developers create test scripts for stories. Using well defined requirements to assure the team for testing. This application is easy to use and it is very descriptive of its functionality. Here are some best practices for one should follow in designing the Story Testing Scripts Scoped Application:
 
@@ -605,7 +605,7 @@ Story Testing Scripts Scoped Application is powerful tool to help developers cre
 
 # Lab 6: Extra Credit
 
-## How to publish my scoped application to an update set
+## How to publish your scoped application to an update set
 When you publish an application, it creates an update set with the current version of all the application configuration records.
 
 1. In the left navigation bar **System Applications -> My Company Applications**.  
@@ -635,14 +635,14 @@ When you publish an application, it creates an update set with the current versi
 8. Now you can import it into a personal developer instance running **Orlando** or greater.
 
 
-## How to publish my scoped application to the ServiceNow&reg; Share
+## How to publish your scoped application to the ServiceNow&reg; Share
 Here are sample instructions for publishing a scoped app to Share:
 
 https://developer.servicenow.com/blog.do?p=/post/publishing-spoke-to-share/
 
 https://developer.servicenow.com/blog.do?p=/post/first-share-item/
 
-## Other areas to expand the Testing Scripts Scoped Application.
+## Other areas to expand the Testing Scripts Scoped Application
 Provide info on getting scoped app certified on Store
 integration with test mgmt and ATF:
 
