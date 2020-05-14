@@ -416,34 +416,36 @@ End Result:
 End Result:
 ![relative](images/test_script_related_list_end.png)
 
-17. Navigate back to Service Managment Portal and in the left navigation bar go to **Story Testing Scripts > Test Script > Create New**. If Story Testing Scripts doesn't show up try refreshing the Portal.
+17. Navigate back to ServiceNow Desktop UI and refresh the page. This will load the application modules into the left navbar. 
+
+18. After the page refreshes navigate to **Story Testing Scripts > Test Script > Create New**. 
 
 ![relative](images/create_new_test_script.PNG)
 
-18. Right click and select save from drop-down and under the form you should see a M2M Test Script Scenarios Form.  
+19. Right click and select save from drop-down and under the form you should see a M2M Test Script Scenarios Form.  
 
 ![relative](images/m2m_form_under_test_script.PNG)
 
-19. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
+20. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
 
 ![relative](images/M2m_edit_button_enable_1.PNG)
 
-20. In List Control form at the bottom select **Enable Edit** and it should redirect to the previous form.  
+21. In List Control form at the bottom select **Enable Edit** and it should redirect to the previous form.  
 
 ![relative](images/m2m_enable_edit_button.PNG)
 
-21. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+22. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
 
 ![relative](images/m2m_list_layout_update.PNG)  
 
-22. Arrange the list layout as shown to view information about the Scenario.  
+23. Arrange the list layout as shown to view information about the Scenario.  
 
 ![relative](images/m2m_list_layout_update.gif)
 
 End Result:
 ![relative](images/scenario_layout_end.png)
 
-23. Now you should see more infomration about M2M Test Script Scenario.
+24. Now you should see more infomration about M2M Test Script Scenario.
 
 ![relative](images/updated_m2m.PNG)
 
