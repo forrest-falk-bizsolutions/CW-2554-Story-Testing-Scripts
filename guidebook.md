@@ -47,7 +47,7 @@ In this lab, we've identified a commonly used test template using excel. We've h
 
 **Name:** Story Testing Scripts  
 **Description:** Create testing scripts for stories.  
-**Scope:** x_441376_sts (Note, your instance may have a different number.  
+**Scope:** x_snc_sts_11 (Note: If you get an error that the scope already exists, replace "11" in the scope with another number.)
 
 5. **Optional:** Right click the **checkmark_icon.png** image below and select **"Save Image As..."**. Open the folder where you saved the checkmark_icon.png and **_Drag and drop_** it to the icon area in the application creator.
 
@@ -155,7 +155,7 @@ Add the following fields to the Test Steps table:
 
 Field Label | Field Name | Type | Length | Reference
 ------------ | ------------- | ------------- | ------------- | -------------
-Number | number | String | 40 |
+Number | number | Integer |  |
 Description | description | String | 1000 |
 Input Variables | input_variables | String | 1000 | 
 Expected Results | expected_results | String | 1000 | 
