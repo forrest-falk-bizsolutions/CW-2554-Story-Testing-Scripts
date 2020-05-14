@@ -403,7 +403,7 @@ End Result:
 
 14.  Scroll down to related links and select **Show Form**.
 
-![relative](images/show_form_related_list.png)  
+![relative](images/show_form_related_link.png)  
 
 15. In the Test Script Form right click on the top banner and go to Configure -> Related Lists.
 
@@ -414,7 +414,7 @@ End Result:
 ![relative](images/add_m2m_to_test_script_2.gif)
 
 End Result:
-![relative](images/test_script_related_list_end.PNG)
+![relative](images/test_script_related_list_end.png)
 
 17. Navigate back to Service Managment Portal and in the left navigation bar go to **Story Testing Scripts > Test Script > Create New**. If Story Testing Scripts doesn't show up try refreshing the Portal.
 
