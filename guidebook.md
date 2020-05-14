@@ -405,7 +405,7 @@ End Result:
 
 ![relative](images/show_form_related_link.png)  
 
-15. In the Test Script Form right click on the top banner and go to Configure -> Related Lists.
+15. In the Test Script Form right click on the top banner and go to **Configure -> Related Lists**.
 
 ![](images/test_script_related_list.png)  
 
