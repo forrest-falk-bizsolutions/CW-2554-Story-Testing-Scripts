@@ -377,7 +377,7 @@ End Result:
 
 ![relative](images/M2m_edit_button_enable_1.PNG)
 
-9. In List Control form at the bottom select **Enable Edit** and it should redirect to the previous form.  
+9. In List Control uncheck the **Omit Edit Button** checkbox and at the bottom of the form, click the **Enable Edit** button.
 
 ![relative](images/m2m_enable_edit_button.PNG)
 
