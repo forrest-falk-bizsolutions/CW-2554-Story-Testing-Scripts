@@ -486,21 +486,25 @@ End Result:
 **Prerequisites:** Make sure this user has no roles assigned to them.  
 **Description:** Basic user with no roles.  
 
-8. Let's go back to Test Script and Create M2M Test Script Scenarios by pressing New button.  
+8. Let's go back to Test Script by using ServiceNow's Histoy Tab in the left navbar. **Click** the clock in the left navbar.
+
+9. Select the **Test Script - Verify Service Desk Managers group, users, and roles** record in the history list.
+
+10. Scroll to the bottom of the Test Script to the **M2M Test Script Scenarios** related list and clicking **New** .  
 
 ![relative](images/create_m2m_scenario.PNG)
 
-9. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
+11. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
 
 ![relative](images/m2m_scenario_complete_form.PNG)  
 
-10. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
+12. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
 
 ![relative](images/test_script_m2m_scenarios.PNG)  
 
-11. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
+13. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
 
-12. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click **Submit**.    
+14. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click **Submit**.    
 
 ![relative](images/test_step_record.PNG)
 
@@ -510,7 +514,7 @@ End Result:
 **Expected Results:** Should login to ServiceNow UI  
 **Actual Results:**
 
-13. Repeat the process of filling the Test Step with the following information, and press **insert and stay** on the top bar.
+15. Repeat the process of filling the Test Step with the following information, and press **insert and stay** on the top bar.
 
 **Number:** 2  
 **Description:** Navigate to Incidents > Create New  
@@ -530,7 +534,7 @@ End Result:
 **Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
 **Actual Results:** 
 
-14. Lets create Test Steps for Alfonso Griglen, user that does not have any roles.
+16. Lets create Test Steps for Alfonso Griglen, user that does not have any roles.
 
 **Number:** 5  
 **Description:** Login as Alfonso Griglen  
@@ -544,7 +548,7 @@ End Result:
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
 
-15. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
+17. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
 
 User name | Password |
 ------------ | ------------- |
@@ -552,23 +556,23 @@ beth.anglin | Knowledge20 |
 
 ![relative](images/test_test_steps_1.PNG)
 
-16. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
+18. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
 
 ![relative](images/test_test_steps_2.PNG)
 
-17. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
+19. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
 
 ![relative](images/test_test_steps_3.PNG)
 
-18. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
+19. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
 
 ![relative](images/test_test_steps_4.PNG)
 
-18. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
+20. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
 
 ![](images/test_test_steps_5.png)
 
-19. Navigate to Incident Creation from Self-Service.
+21. Navigate to Incident Creation from Self-Service.
 
 ![relative](images/test_test_steps_6.gif)
 
