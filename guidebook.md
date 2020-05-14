@@ -31,9 +31,6 @@ In this lab, we've identified a commonly used test template using excel. We've h
 
 ![relative](images/story_script_excel.png)  
 
-
-In the lab 2 session there is an option to download a **checkbox.png** file from github for application image custamization. 
-
 # Lab 2: Starting with ServiceNow&reg; Studio IDE
 
 ## Create the Scoped Application
