@@ -230,7 +230,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 **Tables:** Test Script, Scenario, Test Step, M2M Test Script Scenario  
 **Roles:** test_script_user, scrum_user  
 
-2. You should now be on the _Nice! Here are the apps you've designed so far_ screen. Review your Story Testing Scripts appliation and click **Done with apps**.   
+2. You should now be on the _Nice! Here are the apps you've designed so far_ screen. Review your Story Testing Scripts application and click **Done with apps**.   
 
 ![relative](images/finished_designing_app.png)
 
@@ -442,7 +442,7 @@ Description | Added the Test Scripts related list to the Story (rm_story) form's
 
 ![relative](images/story_testing_global_update_set.png)
 
-21. In the left navigation bar, go to **Agile Development -> Stories**.
+21. In the left navigation bar, go to **Agile Development -> Stories -> Open Stories**.
 
 22. Once the list of stories load **click** on one of the stories to view the stories form. 
 
@@ -463,7 +463,7 @@ End Result:
 
 ## Build Your First Test Script  
 
-1. Now we are going to build our first test script for a story where the IT Director would like a new **Service Desk Managers** group. In the left navbar, navigate to **Agile Development -> Stories**.
+1. Now we are going to build our first test script for a story where the IT Director would like a new **Service Desk Managers** group. In the left navbar, navigate to **Agile Development -> Stories -> Open Stories**.
 
 2. In the stories list search for **STRY0018788** in the number field and **click** on the story field when it loads. 
 
@@ -472,15 +472,17 @@ End Result:
 4. On the new Test Script form fill in the following information:
 
 **Name:** Verify Service Desk Managers group, users, and roles  
-**Story:** The IT Director would like a new group in ServiceNow called **Service Desk Managers**    
-**Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly check another user in the group for the **itil** role.  
+**Story:** The IT Director would like a new group in ServiceNow called Service Desk Managers.
+**Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly, check a non-roled user to make sure they do not have itil and are not part of the Service Desk Managers group.
 **Version:** 1   
 
 5. Click **Submit** to create the test script.
 
-6. Now that the Test Script is all filled out, we will create a new scenario for our test script. In the left navigation bar go to **Story Testing Scripts > Scenario > Create New**
+6. **Refresh** your browser tab. You should still be in the ServiceNow Desktop UI. This will refresh the browser's cache and load in the Story Testing Script application and modules in the left navbar.
 
-7. In the new choice record, make sure the fields are filled out with the below information. Verify the information in the form and click **Submit** to create the choice.   
+7. Now that the Test Script is all filled out, we will create a new scenario for our test script. In the left navigation bar go to **Story Testing Scripts > Scenario > Create New**
+
+8. In the new choice record, make sure the fields are filled out with the below information. Verify the information in the form and click **Submit** to create the choice.   
 
 ![relative](images/scenario_form.PNG)
 
@@ -490,7 +492,7 @@ End Result:
 **Prerequisites:** Must have the **itil** role and be a member of the **Service Desk Managers** group.  
 **Description:** Use this user to test a Service Desk Manager.
 
-8. After Creating a Scenario with Beth Anglin we need to create Alissa Mountjoy and Alfonso Griglen. We will start with Alfonso Griglen. Fill in the fields with provided information.  
+9. After Creating a Scenario with Beth Anglin we need to create Alissa Mountjoy and Alfonso Griglen. We will start with Alfonso Griglen. Fill in the fields with provided information.  
 
 **Name:** Alfonso Griglen  
 **Personas:** General user with no roles  
@@ -498,40 +500,41 @@ End Result:
 **Prerequisites:** Make sure this user has no roles assigned to them.  
 **Description:** Basic user with no roles.  
 
-9. Let's go back to Test Script by using ServiceNow's Histoy Tab in the left navbar. Click the clock icon in the left navbar.
+10. Let's go back to Test Script by using ServiceNow's Histoy Tab in the left navbar. Click the **clock icon** in the left navbar.
 
-10. Select the **Test Script - Verify Service Desk Managers group, users, and roles** record in the history list.
+11. Select the **Test Script - Verify Service Desk Managers group, users, and roles** record in the history list.
+![relative](images/history_clock.png)
 
-11. Scroll to the bottom of the Test Script to the **M2M Test Script Scenarios** related list and clicking **New** .  
+12. Scroll to the bottom of the Test Script to the **M2M Test Script Scenarios** related list and clicking **New** .  
 
 ![relative](images/create_m2m_scenario.PNG)
 
-12. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
+13. In the M2M Test Script Scenario form we select the Scenario magnifying glass and search for our created Scenario and Press **Submit**
 
 ![relative](images/m2m_scenario_complete_form.PNG)  
 
-13. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
+14. Now the Test Scripts, M2M Test Script Scenarios should have newly inserted Scenario of Beth Anglin. Do the same steps for Alfonso Griglen.  
 
 ![relative](images/test_script_m2m_scenarios.PNG)  
 
-14. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
+15. The next step is creating couple of Test Steps. Go back to the Test Script form and select **Test Step** next to M2M Test Script Scenarios and click on **New**.
 
-15. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click **Submit**.    
+16. In the new Test Step record make sure the fields are filled out with the below information. Verify the information in the form and click **Submit**.    
 
 ![relative](images/test_step_record.PNG)
 
 **Number:** 1  
 **Description:** Impersonate Beth Anglin
-**Input Variables:** username=beth.anglin     
+**Input Variables:** username=beth.anglin
 **Expected Results:** Once Beth Anglin is impersonated, you should be redirected to her account ServiceNow Desktop UI.  
 **Actual Results:**
 
-16. Repeat the process of filling the Test Step with the following information, and press **insert and stay** on the top bar.
+17. Repeat the process of filling the Test Step with the following information, and press **Insert and stay** on the top bar.
 
 **Number:** 2  
 **Description:** Navigate to Incidents > Create New  
 **Input Variables:** N/A    
-**Expected Results:** Opens a blank Incident to be submited  
+**Expected Results:** Opens a blank Incident to be submitted  
 **Actual Results:**  
 
 **Number:** 3  
@@ -543,10 +546,10 @@ End Result:
 **Number:** 4  
 **Description:** Assign Beth Anglin to the Assigned to field on the incident, fill in the remaining mandatory fields, and submit the incident. Service Desk Managers group should already be selected on the incident from the previous step.  
 **Input Variables:** Caller = Abel Tuter, Short description = My computer will not turn on after I spilled my coffee. Assignment Group = Service Desk Managers, Assigned To = Beth Anglin    
-**Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
+**Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not exist.  
 **Actual Results:** 
 
-17. Lets create Test Steps for Alfonso Griglen, user that does not have any roles.
+18. Lets create Test Steps for Alfonso Griglen, user that does not have any roles.
 
 **Number:** 5  
 **Description:** Impersonate Alfonso Griglen  
@@ -566,34 +569,34 @@ End Result:
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
 
-18. Development on STRY0018788 has already been completed on your lab instance. The "Service Desk Managers" group has been created with the "itil" role and Beth Anglin has been added to it. Now that we created some test steps, lets test them out. The first step mentions that we need to impersonate Beth. In the top banner, **click** on your **System Administrator** name to open the user menu.
+19. Development on STRY0018788 has already been completed on your lab instance. The "Service Desk Managers" group has been created with the "itil" role and Beth Anglin has been added to it. Now that we created some test steps, lets test them out. The first step mentions that we need to impersonate Beth. In the top banner, **click** on your **System Administrator** name to open the user menu.
 
-19. In the user menu drop-down, select **Impersonate User**.
+20. In the user menu drop-down, select **Impersonate User**.
 
-20. You should now see a pop-up modal. In the **Search for user** field search for Beth Anglin and **click** her name. You should be redirected to the ServiceNow Desktop UI view and your name in the top banner should change to **Beth Anglin**.
+21. You should now see a pop-up modal. In the **Search for user** field search for Beth Anglin and **click** her name. You should be redirected to the ServiceNow Desktop UI view and your name in the top banner should change to **Beth Anglin**.
 
-21. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
+22. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submitted.  
 
 ![relative](images/test_test_steps_2.PNG)
 
-22. The 3rd Step in our test steps is to attempt to assign the **Service Desk Managers** assignment group to the Incident. If the **Service Desk Managers** group shows up, it means it exists in ServiceNow and this test step passes.
+23. The 3rd Step in our test steps is to attempt to assign the **Service Desk Managers** assignment group to the Incident. If the **Service Desk Managers** group shows up, it means it exists in ServiceNow and this test step passes.
 
 ![relative](images/test_test_steps_3.PNG)
 
-23. Test the 4th test step by assigning Beth Anglin to the Assigned to. If you are able to **Submit** the incident with the below values, then all the test steps for Beth have passed, meaning the **Service Desk Managers** group has been created and **Beth Anglin** has been assigned to it.
+24. Test the 4th test step by assigning Beth Anglin to the Assigned to. If you are able to **Submit** the incident with the below values, then all the test steps for Beth have passed, meaning the **Service Desk Managers** group has been created and **Beth Anglin** has been assigned to it.
 
 **Caller:** Abel Tuter
-**Short description:** My computer will not turn on after I spilled my coffee. 
+**Short description:** My computer will not turn on after I spilled my coffee.
 **Assignment Group:** Service Desk Managers
 **Assigned To:** Beth Anglin  
 
 ![relative](images/test_test_steps_4.PNG)
 
-24. Moving on to the 5th test step, we will be impersonating Alfonso Griglen. Go ahead and repeat steps 18-20 by **clicking** on the name in the top banner (Beth Anglin right now), selecting **Impersonate User** in the drop-down menu, and selecting **Alfonso Griglen** in the "Search for user" field. Once you complete those steps you should be directed to the ServiceNow Desktop UI page with **Alfonso Griglen** as the name in the top banner.
+25. Moving on to the 5th test step, we will be impersonating Alfonso Griglen. Go ahead and repeat steps 18-20 by **clicking** on the name in the top banner (Beth Anglin right now), selecting **Impersonate User** in the drop-down menu, and selecting **Alfonso Griglen** in the "Search for user" field. Once you complete those steps you should be directed to the ServiceNow Desktop UI page with **Alfonso Griglen** as the name in the top banner.
 
-25. Now for the 6th test step, go to **Self-Service -> Incidents** in the left navbar. You should be directled to the list view of incidents.
+26. Now for the 6th test step, go to **Self-Service -> Incidents** in the left navbar. You should be directled to the list view of incidents.
 
-26. For the final step, click **New** on top of the incidents list. If you are directed to the **Create Incident** catalog item shown below, then the test has suceeded as Alfonso.
+27. For the final step, click **New** on top of the incidents list. If you are directed to the **Create Incident** catalog item shown below, then the test has suceeded as Alfonso.
 
 ![relative](images/test_test_steps_6.gif)
 
