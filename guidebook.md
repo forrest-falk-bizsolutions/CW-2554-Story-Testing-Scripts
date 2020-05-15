@@ -248,7 +248,8 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 ![relative](images/design_form_related_list.png) 
 
-7. * In the Form Designer, change the first section to be a **2 Column layout**. 
+7. In the Form Designer: 
+   * change the first section to be a **2 Column layout**. 
    * Then drag the Name, Version, Story, Reviewed By, and Tested By fields to the top section.
    *  Move the Description field to the bottom 1 column section. 
    * There should be no fields in the middle section. 
@@ -274,7 +275,8 @@ Close the Form Design tab in your browser and go back to the Studio Application 
 
 ![relative](images/design_form_related_list.png)  
 
-10. * In the Form Designer, add a new section by clicking on the **+**. 
+10. In the Form Designer: 
+    * Add a new section by clicking on the **+**. 
     * Make the new section a 1 Column section by clicking the **2 Column** drop-down list and selecting **1 Column**. 
     * Drag down the **Prerequisites** and **Description** fields down to the new section on the bottom. 
     * Next change the the top Scenario section to a 2 Column section by clicking **1 Column** in the drop-down list and selecting **2 Column**. 
