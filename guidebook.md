@@ -546,7 +546,6 @@ End Result:
 
 **Number:** 6  
 **Description:** Navigate to Self-Service > Incidents > New
-
 **Input Variables:** N/A    
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
