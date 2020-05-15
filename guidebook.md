@@ -607,14 +607,14 @@ Story Testing Scripts Scoped Application is powerful tool to help developers cre
 
 1. **Define involved users and roles of the story**
     * Check the stories that are present in the story and understand what they do.
-    * Understand what users are involved in the story and if they are relavant to it.
+    * Understand what users are involved in the story and if they are relevant to it.
 
 2. **Create a Test Script**
     * Using the Description of the story define the problem and solution of the story.
     * Identify who will be reviewing and testing the story.
 
 3. **Create Scenario for the Story**
-    * With the defined task we create a Scenario with users that are relavant to the story.
+    * With the defined task we create a Scenario with users that are relevant to the story.
     * Clearly define the prerequisite fields with all necessary roles, groups and other configuration requirements.  
     * Write a clear description for a scenario.
 
@@ -668,7 +668,7 @@ https://developer.servicenow.com/blog.do?p=/post/first-share-item/
 
 ## Other areas to expand the Testing Scripts Scoped Application
 Provide info on getting scoped app certified on Store
-integration with test mgmt and ATF:
+integration with test management and ATF:
 
 https://developer.servicenow.com/blog.do?p=/post/o-atf/
 
