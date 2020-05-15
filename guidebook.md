@@ -202,7 +202,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![](images/m2m_test_script_scenario_is_ready.png) 
+![relative](images/m2m_test_script_scenario_is_ready.png) 
 
 **Table label:** M2M Test Script Scenario   
 **Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
