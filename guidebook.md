@@ -301,7 +301,9 @@ Close the Form Design tab in your browser and go back to the Studio Application 
 
 ![relative](images/design_form_related_list.png)  
 
-13. In the Form Designer, drag the **Description** field above the **Input Variables** field in the Test Step section. Once completed, click **Save**.  
+13. In the Form Designer: 
+    * Drag the **Description** field above the **Input Variables** field in the Test Step section.
+    * Click **Save**.  
 
 ![relative](images/test_step_designer_layout.gif)  
 
