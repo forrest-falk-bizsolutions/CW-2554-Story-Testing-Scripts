@@ -512,7 +512,7 @@ End Result:
 
 **Number:** 1  
 **Description:** Impersonate Beth Anglin
-**Input Values:** username=beth.anglin     
+**Input Variables:** username=beth.anglin     
 **Expected Results:** Once Beth Anglin is impersonated, you should be redirected to her account ServiceNow Desktop UI.  
 **Actual Results:**
 
@@ -520,19 +520,19 @@ End Result:
 
 **Number:** 2  
 **Description:** Navigate to Incidents > Create New  
-**Input Values:** N/A    
+**Input Variables:** N/A    
 **Expected Results:** Opens a blank Incident to be submited  
 **Actual Results:**  
 
 **Number:** 3  
 **Description:** Attempt to assign new incident to the **_Service Desk Managers_** group. This will prove that the group has been created in the ServiceNow  
-**Input Values:** Assignment Group = Service Desk Managers    
+**Input Variables:** Assignment Group = Service Desk Managers    
 **Expected Results:** Assignment Group field is filled in with Service Desk Managers  
 **Actual Results:**  
 
 **Number:** 4  
 **Description:** Assign Beth Anglin to the Assigned to field on the incident. Service Desk Managers group should already be selected on the incident  
-**Input Values:** Assignment Group = Service Desk Managers, Assignt To = Beth Anglin    
+**Input Variables:** Assignment Group = Service Desk Managers, Assignt To = Beth Anglin    
 **Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
 **Actual Results:** 
 
@@ -540,13 +540,14 @@ End Result:
 
 **Number:** 5  
 **Description:** Login as Alfonso Griglen  
-**Input Values:** username=alfonso.griglen password=Knowledge20    
+**Input Variables:** username=alfonso.griglen password=Knowledge20    
 **Expected Results:** Should login to ServiceNow UI  
 **Actual Results:** 
 
 **Number:** 6  
 **Description:** Navigate to Self-Service > Incidents > New
-**Input Values:** N/A    
+
+**Input Variables:** N/A    
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
 
