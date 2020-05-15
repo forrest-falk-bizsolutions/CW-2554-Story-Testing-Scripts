@@ -202,7 +202,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 35. Name the table with the information below and then click **Continue** to create the table. It may take a few seconds for the table to be created.
 
-![relative](images/m2m_test_script_scenario_is_ready.png)
+![relative](images/m2m_test_script_scenario_is_ready.PNG)
 
 **Table label:** M2M Test Script Scenario   
 **Table name:** x_441376_sts_m2m_test_script_scenario (Your instance may have a different number in the table name.)  
@@ -471,7 +471,7 @@ End Result:
 
 4. On the new Test Script form fill in the following information:
 
-**Name:** Verify Service Desk Managers group, users, and roles  
+**Name:** Verify Service Desk Managers group, users, and roles
 **Story:** The IT Director would like a new group in ServiceNow called Service Desk Managers.
 **Description:** This test should check that the Service Desk Managers group was created. That at least one of the users in the group is now apart of that group. Lastly, check a non-roled user to make sure they do not have itil and are not part of the Service Desk Managers group.
 **Version:** 1   
@@ -523,10 +523,10 @@ End Result:
 
 ![relative](images/test_step_record.PNG)
 
-**Number:** 1  
+**Number:** 1
 **Description:** Impersonate Beth Anglin
 **Input Variables:** username=beth.anglin
-**Expected Results:** Once Beth Anglin is impersonated, you should be redirected to her account ServiceNow Desktop UI.  
+**Expected Results:** Once Beth Anglin is impersonated, you should be redirected to her account ServiceNow Desktop UI.
 **Actual Results:**
 
 17. Repeat the process of filling the Test Step with the following information, and press **Insert and stay** on the top bar.
@@ -559,7 +559,7 @@ End Result:
 
 **Number:** 6  
 **Description:** Navigate to Self-Service > Incidents
-<br />**Input Variables:** N/A    
+<br />**Input Variables:** N/A
 **Expected Results:** Brings the user to the Incidents list view.
 **Actual Results:**
 
