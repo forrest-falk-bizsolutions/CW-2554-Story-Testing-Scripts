@@ -531,8 +531,8 @@ End Result:
 **Actual Results:**  
 
 **Number:** 4  
-**Description:** Assign Beth Anglin to the Assigned to field on the incident. Service Desk Managers group should already be selected on the incident  
-**Input Variables:** Assignment Group = Service Desk Managers, Assignt To = Beth Anglin    
+**Description:** Assign Beth Anglin to the Assigned to field on the incident, fill in the remaining mandatory fields, and submit the incident. Service Desk Managers group should already be selected on the incident from the previous step.  
+**Input Variables:** Caller = Abel Tuter, Short description = My computer will not turn on after I spilled my coffee. Assignment Group = Service Desk Managers, Assigned To = Beth Anglin    
 **Expected Results:** Beth Anglin gets filled in the Assigned to field on the incident. The field does not throw an error saying the user does not excist  
 **Actual Results:** 
 
@@ -562,17 +562,20 @@ End Result:
 
 20. You should now see a pop-up modal. In the **Search for user** field search for Beth Anglin and **click** her name. You should be redirected to the ServiceNow Desktop UI view and your name in the top banner should change to **Beth Anglin**.
 
-
-
 21. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
 
 ![relative](images/test_test_steps_2.PNG)
 
-22. Third Step in our test steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
+22. The 3rd Step in our test steps is to attempt to assign the **Service Desk Managers** assignment group to the Incident. If the **Service Desk Managers** group shows up, it means it exists in ServiceNow and this test step passes.
 
 ![relative](images/test_test_steps_3.PNG)
 
-23. Test the 4th test step by assigning Beth Anglin to the Assigned to. If you are able to have **Service Desk Managers** in the "Assignment group" field and **Beth Anglin** in the "Assigned to" field. then all the tests for Beth have passed!
+23. Test the 4th test step by assigning Beth Anglin to the Assigned to. If you are able to **Submit** the incident with the below values, then all the test steps for Beth have passed, meaning the **Service Desk Managers** group has been created and **Beth Anglin** has been assigned to it.
+
+**Caller:** Abel Tuter
+**Short description:** My computer will not turn on after I spilled my coffee. 
+**Assignment Group:** Service Desk Managers
+**Assigned To:** Beth Anglin  
 
 ![relative](images/test_test_steps_4.PNG)
 
