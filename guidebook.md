@@ -539,22 +539,28 @@ End Result:
 17. Lets create Test Steps for Alfonso Griglen, user that does not have any roles.
 
 **Number:** 5  
-**Description:** Login as Alfonso Griglen  
-**Input Variables:** username=alfonso.griglen password=Knowledge20    
-**Expected Results:** Should login to ServiceNow UI  
+**Description:** Impersonate Alfonso Griglen  
+**Input Variables:** username=alfonso.griglen  
+**Expected Results:** Once Alfonso Griglen is impersonated, you should be redirected to her account ServiceNow Desktop UI.  
 **Actual Results:** 
 
 **Number:** 6  
-**Description:** Navigate to Self-Service > Incidents > New
+**Description:** Navigate to Self-Service > Incidents
+<br />**Input Variables:** N/A    
+**Expected Results:** Brings the user to the Incidents list view.
+**Actual Results:**
+
+**Number:** 7
+**Description:** Click the "New" button on the top of the Incidents list.
 <br />**Input Variables:** N/A    
 **Expected Results:** Opens a Self-Service Incident request  
 **Actual Results:**
 
-18. Now that we created some test steps, lets test them out. First we want to login as Beth Anglin. After you login you should see the ITIL Homepage.  
+18. Development on STRY0018788 has already been completed on your lab instance. The "Service Desk Managers" group has been created with the "itil" role and Beth Anglin has been added to it. Now that we created some test steps, lets test them out. The first step mentions that we need to impersonate Beth. In the top banner, **click** on your **System Administrator** name to open the user menu.
 
-User name | Password |
------------- | ------------- |
-beth.anglin | Knowledge20 | 
+19. In the user menu drop-down, select **Impersonate User**.
+
+20. You should now see a pop-up modal. In the **Search for user** field search for Beth Anglin and **click** her name. You should be redirected to the ServiceNow Desktop UI view and your name in the top banner should change to **Beth Anglin**.
 
 ![relative](images/test_test_steps_1.PNG)
 
