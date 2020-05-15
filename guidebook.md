@@ -361,62 +361,65 @@ Next we will work on creating a global update set to capture the Test Script rel
 ![relative](images/add_m2m_to_test_script_2.gif)
 
 End Result:
+
 ![relative](images/test_script_related_list_end.png)
 
-5. Navigate back to ServiceNow Desktop UI and refresh the page. This will load the application modules into the left navbar. 
+5. Now let's work on adding an "Edit..." button and changing the columns on the M2M Test Script Scenario related list on a Test Script record. On Studio, navigate back to the Test Script table.
 
-6. After the page refreshes navigate to **Story Testing Scripts > Test Script > Create New** to create a new Test Script. 
+![relative](images/studio_table_select_test_script.png) 
 
-![relative](images/create_new_test_script.PNG)
+6. On the bottom of the Test Script table record, click **Show List** in the related links section.
 
-7. Right click and select save from drop-down and under the form you should see a M2M Test Script Scenarios Form.  
+7. Click the **New** button at the top of the Test Scripts' list to create a new record.
+
+8. In order to see the related lists that we added earlier to the Test Script form, we need to save the record. You can leave the form blank for now and **Right-click** the top banner on the record and select **Save** from the drop-down menu.
 
 ![relative](images/m2m_form_under_test_script.PNG)
 
-8. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
+9. For M2M Test Script Scenario we would like to add an edit button to manage scenarios easier. For this we go to column options and choose Configure List Control.  
 
 ![relative](images/M2m_edit_button_enable_1.PNG)
 
-9. In List Control uncheck the **Omit Edit Button** checkbox and at the bottom of the form, click the **Enable Edit** button.
+10. In List Control uncheck the **Omit Edit Button** checkbox and at the bottom of the form, click the **Enable Edit** button.
 
 ![relative](images/m2m_enable_edit_button.PNG)
 
-10. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+11. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
 
 ![relative](images/m2m_list_layout_update.PNG)  
 
-11. Arrange the list layout as shown to view information about the Scenario.  
+12. Arrange the list layout as shown to view information about the Scenario.  
 
 ![relative](images/m2m_list_layout_update.gif)
 
 End Result:
 ![relative](images/scenario_layout_end.png)
 
-12. Now you should see more infomration about M2M Test Script Scenario.
+13. Now you should see more infomration about M2M Test Script Scenario.
 
 ![relative](images/updated_m2m.PNG)
 
-13. Let's navigate to ServiceNow Desktop UI, here we will turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
+14. Let's navigate to ServiceNow Desktop UI, here we will turn on the developer Update Set and Scope in the header. Start by clicking on the **gear** icon in the top right corner.
 
 ![relative](images/gear_icon.png)
 
-14. Turn on **Show application picker in header** and **Show update set picker in header** under the **Developer** tab.
+15. Turn on **Show application picker in header** and **Show update set picker in header** under the **Developer** tab.
 
 ![relative](images/turn_on_header_update_set_and_scope.gif)
 
-15. In the application picker in the header, change the application to **Global**.
+16. In the application picker in the header, change the application to **Global**.
 
 ![relative](images/global_app_picker.png)
 
-16. In the left navigation bar, go to **System Update Sets -> Local Update Sets**. 
+17. In the left navigation bar, go to **System Update Sets -> Local Update Sets**. 
 
 ![relative](images/local_update_sets_navbar.png)  
 
-17. At the top of the Update Sets List, click **New**.
+18. At the top of the Update Sets List, click **New**.
 
 ![relative](images/new_update_set.png)
 
-18. Fill out the update set with a detailed name and description.
+19. Fill out the update set with a detailed name and description.
 
 Field |  Value 
 ------------ | ------------- 
@@ -425,21 +428,21 @@ State | In progress
 Application | Global
 Description | Added the Test Scripts related list to the Story (rm_story) form's scrum view.  
 
-19. Click **Submit and Make Current** to save the update and set it as your current update set. You should now see the new update set in the update set picker in the header.
+20. Click **Submit and Make Current** to save the update and set it as your current update set. You should now see the new update set in the update set picker in the header.
 
 ![relative](images/story_testing_global_update_set.png)
 
-20. In the left navigation bar, go to **Agile Development -> Stories**.
+21. In the left navigation bar, go to **Agile Development -> Stories**.
 
-21. Once the list of stories load **click** on one of the stories to view the stories form. 
+22. Once the list of stories load **click** on one of the stories to view the stories form. 
 
-22. Next open the form's context menu by **Right clicking** on the form's gray banner at the top. 
+23. Next open the form's context menu by **Right clicking** on the form's gray banner at the top. 
 
-23. In the context menu, go to **Configure -> Related Lists**. 
+24. In the context menu, go to **Configure -> Related Lists**. 
 
 ![relative](images/from_context_menu_related_list.png)
 
-24. You should now see the related list, list collector for the Scrum view. In the **Available** list on the left select **Test Script->Story** to highlight it. To move it over to the **Selected** list on the right, **click** the **>** icon. Once the **Test Script->Story** related list has been moved over, click the **Save** button.
+25. You should now see the related list, list collector for the Scrum view. In the **Available** list on the left select **Test Script->Story** to highlight it. To move it over to the **Selected** list on the right, **click** the **>** icon. Once the **Test Script->Story** related list has been moved over, click the **Save** button.
 
 ![relative](images/add_test_scripts_to_related_lists.gif)
 
