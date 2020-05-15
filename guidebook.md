@@ -562,25 +562,25 @@ End Result:
 
 20. You should now see a pop-up modal. In the **Search for user** field search for Beth Anglin and **click** her name. You should be redirected to the ServiceNow Desktop UI view and your name in the top banner should change to **Beth Anglin**.
 
-![relative](images/test_test_steps_1.PNG)
 
-19. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
+
+21. Our next Test Step is to go to left Filter Navigator and navigate to **Incident > Create New**. There you should see a blank Incident to be submited.  
 
 ![relative](images/test_test_steps_2.PNG)
 
-20. Third Step in our Test Steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
+22. Third Step in our test steps is to Attempt to assign the Assignment group to the Incident to test if the Service Desk Managers are created. It should not give any errors and fill the Assignment group field.
 
 ![relative](images/test_test_steps_3.PNG)
 
-21. Test the 4 Test step by assigning Beth Anglin to the Assigned to.
+23. Test the 4th test step by assigning Beth Anglin to the Assigned to. If you are able to have **Service Desk Managers** in the "Assignment group" field and **Beth Anglin** in the "Assigned to" field. then all the tests for Beth have passed!
 
 ![relative](images/test_test_steps_4.PNG)
 
-22. After Creating Test Steps, Lets test them out. Login as Alfonso Griglen.
+24. Moving on to the 5th test step, we will be impersonating Alfonso Griglen. Go ahead and repeat steps 18-20 by **clicking** on the name in the top banner (Beth Anglin right now), selecting **Impersonate User** in the drop-down menu, and selecting **Alfonso Griglen** in the "Search for user" field. Once you complete those steps you should be directed to the ServiceNow Desktop UI page with **Alfonso Griglen** as the name in the top banner.
 
-![](images/test_test_steps_5.png)
+25. Now for the 6th test step, go to **Self-Service -> Incidents** in the left navbar. You should be directled to the list view of incidents.
 
-23. Navigate to Incident Creation from Self-Service.
+26. For the final step, click **New** on top of the incidents list. If you are directed to the **Create Incident** catalog item shown below, then the test has suceeded as Alfonso.
 
 ![relative](images/test_test_steps_6.gif)
 
