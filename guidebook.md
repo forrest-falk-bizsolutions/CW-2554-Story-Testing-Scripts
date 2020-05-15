@@ -36,9 +36,11 @@ In this lab, we've identified a commonly used test template using excel. We've h
 ## Create the Scoped Application
 
 1. Navigate to **System Applications > Studio.**  
+
 ![relative](images/nav_studio.png)
 
 2. Click the **Create Application** button.  
+
 ![relative](images/select_application.png)
 
 3. Click the **Let's get started** button on the _Welcome to the new way to set up your apps_.
@@ -58,8 +60,8 @@ In this lab, we've identified a commonly used test template using excel. We've h
 7. On the _Let's create some roles for this app_, search for **scrum_user** role and insert it. After you inserted srum_user role click the **Create new role**. 
 
 8. Enter in **test_script_user** in the _New role name_ field and click **Create**.  
-![relative](images/test_script_user_role.png)
 
+![relative](images/test_script_user_role.png)
 
 9. The role should now appear in the **Roles** list with the scope in front of it.
 
@@ -68,17 +70,21 @@ In this lab, we've identified a commonly used test template using excel. We've h
 10. Click **Continue** to go to the next step.
 
 11. Our application will be used on stories in the classic view of ServiceNow. Select **Classic** and click **Continue** to go to the next page.  
+
 ![relative](images/select_classic_view.png)
 
 12. You should now see the _Which data tables do you want to use for this app?_ We will be building out new tables based on the architecture we mentioned previously in lab 1. Click on **Create new table**.  
 
 13. On the next screen select the **Create table from scratch** and click **Continue**.  
+
 ![relative](images/create_table_from_scratch.png)
 
 14. We will be creating a table for the **Test Script** first as seen below in our schema map. 
+
 ![relative](images/highlighted_table_schema_5.png)
 
 Go ahead and click **Add a new field** and put in the following:  
+
 ![relative](images/adding_fields_to_test_script_table.gif)  
 
 
@@ -112,6 +118,7 @@ Reviewer's Notes | reviewer_s_notes | String | 1000
 ![relative](images/test_script_table_is_ready.png)
 
 19. You should see the **Test Script** table is now in the **_Tables_** field of our app. We now need to add the Scenario table from our schema map. Let's go through the same proccess and click **Create new table**.
+
 ![relative](images/highlighted_table_schema.png)
 
 20. Click on the **Create table from scratch** and then click **Continue**.
@@ -147,6 +154,7 @@ Company | company | Reference | 32 | Company [core_company]
 ![relative](images/test_script_and_scenario_tables_in_app.png)  
 
 26. To create the **Test Step** table from the schema map, click on the **Create table from scratch** and then click **Continue**.
+
 ![relative](images/highlighted_table_schema_3.png)
 
 27. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the Test Steps table with the information below.
@@ -162,7 +170,6 @@ Expected Results | expected_results | String | 1000 |
 Actual Result | actual_result | String | 1000 | 
 Result State | result_state | Choice | Dropdown with none  | 
 Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_script]
-
 
 28. Verify the fields and click **Continue** to go to the table naming page.  
 
@@ -181,6 +188,7 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 ![relative](images/test_script_scenario_test_step_tables.png)
 
 32. Finally let's make the **M2M Test Script Scenario** table from the schema map. Click on the **Create table from scratch** and then click **Continue**.
+
 ![relative](images/highlighted_table_schema_2.png)
 
 33. Now you should see the **+ Add a new field** screen. Go ahead and click **+ Add a new field** to add the fields for the M2M Test Script Scenario table with the information below.
@@ -202,7 +210,6 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 
 36. You should see the _Success! Your table is ready_ page. Click **Continue** to move onto the next page. 
 
-
 37. You should now see the **Test Script**, **Senario**, and **Test Step**, **M2M Test Script Scenario** table listed in the tables for your application. We have completed creating all the tables we need for our application. Click **Done with tables**.  
 
 ![](images/all_tables_in_app.png) 
@@ -210,7 +217,6 @@ Test Script | test_script | Reference | 32 | Test Script [x_441376_sts_test_scri
 38. You should now be on the _OK. It's time to design your apps!_ page. On our classic application click **Start** to jump into Lab 3. 
 
 ![relative](images/time_to_design_app.png) 
-
 
 # Lab 3: How to Design Your Application  
 ## Designing the Layout
@@ -384,7 +390,7 @@ End Result:
 
 ![relative](images/m2m_enable_edit_button.PNG)
 
-11. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Context Menu -> List Layout**. 
+11. To view more information we will update the the List Layout of M2M Test Script Scenarios by going to **Configure -> List Layout**. 
 
 ![relative](images/m2m_list_layout_update.PNG)  
 
@@ -488,7 +494,7 @@ End Result:
 **Prerequisites:** Make sure this user has no roles assigned to them.  
 **Description:** Basic user with no roles.  
 
-9. Let's go back to Test Script by using ServiceNow's Histoy Tab in the left navbar. **Click** the clock in the left navbar.
+9. Let's go back to Test Script by using ServiceNow's Histoy Tab in the left navbar. Click the clock icon in the left navbar.
 
 10. Select the **Test Script - Verify Service Desk Managers group, users, and roles** record in the history list.
 
@@ -594,7 +600,7 @@ Story Testing Scripts Scoped Application is powerful tool to help developers cre
 
 1. **Define involved users and roles of the story**
     * Check the stories that are present in the story and understand what they do.
-    * Understand what users are involed in the story and if they are relavant to it.
+    * Understand what users are involved in the story and if they are relavant to it.
 
 2. **Create a Test Script**
     * Using the Description of the story define the problem and solution of the story.
@@ -627,7 +633,7 @@ When you publish an application, it creates an update set with the current versi
 
 ![relative](images/in_development_application_manager.png)
 
-3. **Click** the application record you want to create an update set for. 
+3. Click the application record you want to create an update set for. 
 
 4. Click the **Publish to Update Set** related link.
 
