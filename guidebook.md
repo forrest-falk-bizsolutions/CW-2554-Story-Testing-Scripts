@@ -524,9 +524,9 @@ End Result:
 ![relative](images/test_step_record.PNG)
 
 **Number:** 1
-**Description:** Impersonate Beth Anglin
-**Input Variables:** username=beth.anglin
-**Expected Results:** Once Beth Anglin is impersonated, you should be redirected to her account ServiceNow Desktop UI.
+**Description:** Impersonate Beth Anglin<br />
+**Input Variables:** username=beth.anglin<br />
+**Expected Results:** Once Beth Anglin is impersonated, you should be redirected to her account ServiceNow Desktop UI.<br />
 **Actual Results:**
 
 17. Repeat the process of filling the Test Step with the following information, and press **Insert and stay** on the top bar.
@@ -560,8 +560,8 @@ End Result:
 **Number:** 6  
 **Description:** Navigate to Self-Service > Incidents
 <br />**Input Variables:** N/A
-**Expected Results:** Brings the user to the Incidents list view.
-**Actual Results:**
+<br />**Expected Results:** Brings the user to the Incidents list view.
+<br />**Actual Results:**
 
 **Number:** 7
 **Description:** Click the "New" button on the top of the Incidents list.
@@ -585,9 +585,9 @@ End Result:
 
 24. Test the 4th test step by assigning Beth Anglin to the Assigned to. If you are able to **Submit** the incident with the below values, then all the test steps for Beth have passed, meaning the **Service Desk Managers** group has been created and **Beth Anglin** has been assigned to it.
 
-**Caller:** Abel Tuter
-**Short description:** My computer will not turn on after I spilled my coffee.
-**Assignment Group:** Service Desk Managers
+**Caller:** Abel Tuter<br />
+**Short description:** My computer will not turn on after I spilled my coffee.<br />
+**Assignment Group:** Service Desk Managers<br />
 **Assigned To:** Beth Anglin  
 
 ![relative](images/test_test_steps_4.PNG)
